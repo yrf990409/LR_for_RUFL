@@ -1,0 +1,74 @@
+[
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  lb_x_data.cpp -o build/maci64/lb_x_data.o",
+    "file": "lb_x_data.cpp",
+    "output": "build/maci64/lb_x_data.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  rt_nonfinite.cpp -o build/maci64/rt_nonfinite.o",
+    "file": "rt_nonfinite.cpp",
+    "output": "build/maci64/rt_nonfinite.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  lb_x_initialize.cpp -o build/maci64/lb_x_initialize.o",
+    "file": "lb_x_initialize.cpp",
+    "output": "build/maci64/lb_x_initialize.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  lb_x_terminate.cpp -o build/maci64/lb_x_terminate.o",
+    "file": "lb_x_terminate.cpp",
+    "output": "build/maci64/lb_x_terminate.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  lb_x.cpp -o build/maci64/lb_x.o",
+    "file": "lb_x.cpp",
+    "output": "build/maci64/lb_x.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_lb_x_api.cpp -o build/maci64/_coder_lb_x_api.o",
+    "file": "interface/_coder_lb_x_api.cpp",
+    "output": "build/maci64/_coder_lb_x_api.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_lb_x_mex.cpp -o build/maci64/_coder_lb_x_mex.o",
+    "file": "interface/_coder_lb_x_mex.cpp",
+    "output": "build/maci64/_coder_lb_x_mex.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  eml_int_forloop_overflow_check.cpp -o build/maci64/eml_int_forloop_overflow_check.o",
+    "file": "eml_int_forloop_overflow_check.cpp",
+    "output": "build/maci64/eml_int_forloop_overflow_check.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  nullAssignment.cpp -o build/maci64/nullAssignment.o",
+    "file": "nullAssignment.cpp",
+    "output": "build/maci64/nullAssignment.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  lb_dfs.cpp -o build/maci64/lb_dfs.o",
+    "file": "lb_dfs.cpp",
+    "output": "build/maci64/lb_dfs.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  interface/_coder_lb_x_info.cpp -o build/maci64/_coder_lb_x_info.o",
+    "file": "interface/_coder_lb_x_info.cpp",
+    "output": "build/maci64/_coder_lb_x_info.o"
+  },
+  {
+    "directory": "/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS/codegen/mex/lb_x",
+    "command": "/usr/bin/xcrun -sdk macosx13.1 clang++ -fno-common -arch x86_64 -mmacosx-version-min=10.15 -fexceptions -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fobjc-arc -std=c++11 -stdlib=libc++ -DMATLAB_MEX_FILE  -O2 -fwrapv -DNDEBUG -fvisibility=hidden -std=c++11 -I \".\" -I \"/Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS\" -I \"./interface\" -I \"/Applications/MATLAB_R2022b.app/extern/include\" -I \".\" -DMODEL=lb_x_mex -DMW_NEEDS_VERSION_H -c  /Applications/MATLAB_R2022b.app/extern/version/cpp_mexapi_version.cpp -o build/maci64/cpp_mexapi_version.o",
+    "file": "/Applications/MATLAB_R2022b.app/extern/version/cpp_mexapi_version.cpp",
+    "output": "build/maci64/cpp_mexapi_version.o"
+  }
+]
