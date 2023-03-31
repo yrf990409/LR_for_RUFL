@@ -21,7 +21,7 @@ static emlrtRSInfo
     rd_emlrtRSI{
         105,       // lineNo
         "sortIdx", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -29,7 +29,7 @@ static emlrtRSInfo
     sd_emlrtRSI{
         308,                // lineNo
         "block_merge_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -37,7 +37,7 @@ static emlrtRSInfo
     td_emlrtRSI{
         316,                // lineNo
         "block_merge_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -45,7 +45,7 @@ static emlrtRSInfo
     ud_emlrtRSI{
         317,                // lineNo
         "block_merge_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -53,7 +53,7 @@ static emlrtRSInfo
     vd_emlrtRSI{
         325,                // lineNo
         "block_merge_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -61,7 +61,7 @@ static emlrtRSInfo
     wd_emlrtRSI{
         333,                // lineNo
         "block_merge_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -69,7 +69,7 @@ static emlrtRSInfo
     xd_emlrtRSI{
         392,                      // lineNo
         "initialize_vector_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -77,7 +77,7 @@ static emlrtRSInfo
     yd_emlrtRSI{
         420,                      // lineNo
         "initialize_vector_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -85,7 +85,7 @@ static emlrtRSInfo
     ae_emlrtRSI{
         427,                      // lineNo
         "initialize_vector_sort", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -93,7 +93,7 @@ static emlrtRSInfo
     be_emlrtRSI{
         587,                // lineNo
         "merge_pow2_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -101,7 +101,7 @@ static emlrtRSInfo
     ce_emlrtRSI{
         589,                // lineNo
         "merge_pow2_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -109,7 +109,7 @@ static emlrtRSInfo
     de_emlrtRSI{
         617,                // lineNo
         "merge_pow2_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -117,7 +117,7 @@ static emlrtRSInfo
     ee_emlrtRSI{
         499,           // lineNo
         "merge_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -125,7 +125,7 @@ static emlrtRSInfo
     ge_emlrtRSI{
         507,           // lineNo
         "merge_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -133,7 +133,7 @@ static emlrtRSInfo
     he_emlrtRSI{
         514,           // lineNo
         "merge_block", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -141,7 +141,7 @@ static emlrtRSInfo
     ie_emlrtRSI{
         561,     // lineNo
         "merge", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
@@ -149,46 +149,46 @@ static emlrtRSInfo
     je_emlrtRSI{
         530,     // lineNo
         "merge", // fcnName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pathName
     };
 
 static emlrtRTEInfo
-    le_emlrtRTEI{
+    se_emlrtRTEI{
         61,        // lineNo
         5,         // colNo
         "sortIdx", // fName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pName
     };
 
 static emlrtRTEInfo
-    me_emlrtRTEI{
+    te_emlrtRTEI{
         386,       // lineNo
         1,         // colNo
         "sortIdx", // fName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pName
     };
 
 static emlrtRTEInfo
-    ne_emlrtRTEI{
+    ue_emlrtRTEI{
         388,       // lineNo
         1,         // colNo
         "sortIdx", // fName
-        "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+        "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
         "sortIdx.m" // pName
     };
 
 // Function Declarations
 namespace coder {
 namespace internal {
-static void merge(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
+static void merge(const emlrtStack &sp, ::coder::array<int32_T, 1U> &idx,
                   ::coder::array<real_T, 1U> &x, int32_T offset, int32_T np,
                   int32_T nq, ::coder::array<int32_T, 1U> &iwork,
                   ::coder::array<real_T, 1U> &xwork);
 
-static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
+static void merge_block(const emlrtStack &sp, ::coder::array<int32_T, 1U> &idx,
                         ::coder::array<real_T, 1U> &x, int32_T offset,
                         int32_T n, int32_T preSortLevel,
                         ::coder::array<int32_T, 1U> &iwork,
@@ -200,15 +200,15 @@ static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
 // Function Definitions
 namespace coder {
 namespace internal {
-static void merge(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
+static void merge(const emlrtStack &sp, ::coder::array<int32_T, 1U> &idx,
                   ::coder::array<real_T, 1U> &x, int32_T offset, int32_T np,
                   int32_T nq, ::coder::array<int32_T, 1U> &iwork,
                   ::coder::array<real_T, 1U> &xwork)
 {
   emlrtStack b_st;
   emlrtStack st;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   b_st.prev = &st;
   b_st.tls = st.tls;
   if (nq != 0) {
@@ -220,7 +220,7 @@ static void merge(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
     st.site = &je_emlrtRSI;
     if (n_tmp > 2147483646) {
       b_st.site = &gb_emlrtRSI;
-      check_forloop_overflow_error(&b_st);
+      check_forloop_overflow_error(b_st);
     }
     for (int32_T j{0}; j < n_tmp; j++) {
       iout = offset + j;
@@ -252,7 +252,7 @@ static void merge(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
           st.site = &ie_emlrtRSI;
           if ((p + 1 <= np) && (np > 2147483646)) {
             b_st.site = &gb_emlrtRSI;
-            check_forloop_overflow_error(&b_st);
+            check_forloop_overflow_error(b_st);
           }
           for (int32_T j{p + 1}; j <= np; j++) {
             iout = q + j;
@@ -266,7 +266,7 @@ static void merge(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
   }
 }
 
-static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
+static void merge_block(const emlrtStack &sp, ::coder::array<int32_T, 1U> &idx,
                         ::coder::array<real_T, 1U> &x, int32_T offset,
                         int32_T n, int32_T preSortLevel,
                         ::coder::array<int32_T, 1U> &iwork,
@@ -275,8 +275,8 @@ static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
   emlrtStack st;
   int32_T bLen;
   int32_T nPairs;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   nPairs = n >> preSortLevel;
   bLen = 1 << preSortLevel;
   while (nPairs > 1) {
@@ -288,7 +288,7 @@ static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
       nTail = n - tailOffset;
       if (nTail > bLen) {
         st.site = &ee_emlrtRSI;
-        merge(&st, idx, x, offset + tailOffset, bLen, nTail - bLen, iwork,
+        merge(st, idx, x, offset + tailOffset, bLen, nTail - bLen, iwork,
               xwork);
       }
     }
@@ -296,17 +296,17 @@ static void merge_block(const emlrtStack *sp, ::coder::array<int32_T, 1U> &idx,
     nPairs >>= 1;
     for (nTail = 0; nTail < nPairs; nTail++) {
       st.site = &ge_emlrtRSI;
-      merge(&st, idx, x, offset + nTail * tailOffset, bLen, bLen, iwork, xwork);
+      merge(st, idx, x, offset + nTail * tailOffset, bLen, bLen, iwork, xwork);
     }
     bLen = tailOffset;
   }
   if (n > bLen) {
     st.site = &he_emlrtRSI;
-    merge(&st, idx, x, offset, bLen, n - bLen, iwork, xwork);
+    merge(st, idx, x, offset, bLen, n - bLen, iwork, xwork);
   }
 }
 
-void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
+void sortIdx(const emlrtStack &sp, ::coder::array<real_T, 1U> &x,
              ::coder::array<int32_T, 1U> &idx)
 {
   array<real_T, 1U> xwork;
@@ -318,17 +318,17 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
   int32_T i;
   int32_T ib;
   uint32_T unnamed_idx_0;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   b_st.prev = &st;
   b_st.tls = st.tls;
   c_st.prev = &b_st;
   c_st.tls = b_st.tls;
   d_st.prev = &c_st;
   d_st.tls = c_st.tls;
-  emlrtHeapReferenceStackEnterFcnR2012b((emlrtConstCTX)sp);
+  emlrtHeapReferenceStackEnterFcnR2012b((emlrtConstCTX)&sp);
   unnamed_idx_0 = static_cast<uint32_T>(x.size(0));
-  idx.set_size(&le_emlrtRTEI, sp, static_cast<int32_T>(unnamed_idx_0));
+  idx.set_size(&se_emlrtRTEI, &sp, static_cast<int32_T>(unnamed_idx_0));
   ib = static_cast<int32_T>(unnamed_idx_0);
   for (i = 0; i < ib; i++) {
     idx[i] = 0;
@@ -342,8 +342,8 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
     int32_T i4;
     int32_T idx_tmp;
     int32_T n;
-    int32_T nNonNaN;
     int32_T quartetOffset;
+    int32_T wOffset_tmp;
     st.site = &rd_emlrtRSI;
     b_st.site = &sd_emlrtRSI;
     n = x.size(0);
@@ -355,13 +355,12 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
     idx4[2] = 0;
     x4[3] = 0.0;
     idx4[3] = 0;
-    iwork.set_size(&me_emlrtRTEI, &b_st, static_cast<int32_T>(unnamed_idx_0));
-    ib = static_cast<int32_T>(unnamed_idx_0);
+    iwork.set_size(&te_emlrtRTEI, &b_st, static_cast<int32_T>(unnamed_idx_0));
     for (i = 0; i < ib; i++) {
       iwork[i] = 0;
     }
     ib = x.size(0);
-    xwork.set_size(&ne_emlrtRTEI, &b_st, ib);
+    xwork.set_size(&ue_emlrtRTEI, &b_st, ib);
     for (i = 0; i < ib; i++) {
       xwork[i] = 0.0;
     }
@@ -370,7 +369,7 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
     c_st.site = &xd_emlrtRSI;
     if (x.size(0) > 2147483646) {
       d_st.site = &gb_emlrtRSI;
-      check_forloop_overflow_error(&d_st);
+      check_forloop_overflow_error(d_st);
     }
     for (int32_T k{0}; k < n; k++) {
       if (muDoubleScalarIsNaN(x[k])) {
@@ -404,16 +403,16 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
             i3 = 4;
             i4 = 3;
           }
-          d = x4[ib - 1];
-          d1 = x4[i3 - 1];
-          if (d <= d1) {
-            d = x4[i2 - 1];
-            if (d <= d1) {
+          d = x4[i3 - 1];
+          d1 = x4[ib - 1];
+          if (d1 <= d) {
+            d1 = x4[i2 - 1];
+            if (d1 <= d) {
               i1 = static_cast<int8_T>(ib);
               b_i2 = static_cast<int8_T>(i2);
               b_i3 = static_cast<int8_T>(i3);
               b_i4 = static_cast<int8_T>(i4);
-            } else if (d <= x4[i4 - 1]) {
+            } else if (d1 <= x4[i4 - 1]) {
               i1 = static_cast<int8_T>(ib);
               b_i2 = static_cast<int8_T>(i3);
               b_i3 = static_cast<int8_T>(i2);
@@ -425,9 +424,9 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
               b_i4 = static_cast<int8_T>(i2);
             }
           } else {
-            d1 = x4[i4 - 1];
-            if (d <= d1) {
-              if (x4[i2 - 1] <= d1) {
+            d = x4[i4 - 1];
+            if (d1 <= d) {
+              if (x4[i2 - 1] <= d) {
                 i1 = static_cast<int8_T>(i3);
                 b_i2 = static_cast<int8_T>(ib);
                 b_i3 = static_cast<int8_T>(i2);
@@ -457,7 +456,7 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
         }
       }
     }
-    i3 = x.size(0) - bLen;
+    wOffset_tmp = x.size(0) - bLen;
     if (ib > 0) {
       int8_T perm[4];
       perm[1] = 0;
@@ -503,12 +502,12 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
       c_st.site = &yd_emlrtRSI;
       if (ib > 2147483646) {
         d_st.site = &gb_emlrtRSI;
-        check_forloop_overflow_error(&d_st);
+        check_forloop_overflow_error(d_st);
       }
       i = static_cast<uint8_T>(ib);
       for (int32_T k{0}; k < i; k++) {
         idx_tmp = perm[k] - 1;
-        quartetOffset = (i3 - ib) + k;
+        quartetOffset = (wOffset_tmp - ib) + k;
         idx[quartetOffset] = idx4[idx_tmp];
         x[quartetOffset] = x4[idx_tmp];
       }
@@ -516,7 +515,7 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
     ib = bLen >> 1;
     c_st.site = &ae_emlrtRSI;
     for (int32_T k{0}; k < ib; k++) {
-      quartetOffset = i3 + k;
+      quartetOffset = wOffset_tmp + k;
       i2 = idx[quartetOffset];
       idx_tmp = (n - k) - 1;
       idx[quartetOffset] = idx[idx_tmp];
@@ -525,15 +524,14 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
       x[idx_tmp] = xwork[quartetOffset];
     }
     if ((bLen & 1) != 0) {
-      i = i3 + ib;
+      i = wOffset_tmp + ib;
       x[i] = xwork[i];
     }
-    nNonNaN = x.size(0) - bLen;
     ib = 2;
-    if (nNonNaN > 1) {
+    if (wOffset_tmp > 1) {
       if (x.size(0) >= 256) {
         int32_T nBlocks;
-        nBlocks = nNonNaN >> 8;
+        nBlocks = wOffset_tmp >> 8;
         if (nBlocks > 0) {
           b_st.site = &td_emlrtRSI;
           for (int32_T b{0}; b < nBlocks; b++) {
@@ -591,19 +589,19 @@ void sortIdx(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
             }
           }
           ib = nBlocks << 8;
-          quartetOffset = nNonNaN - ib;
+          quartetOffset = wOffset_tmp - ib;
           if (quartetOffset > 0) {
             b_st.site = &vd_emlrtRSI;
-            merge_block(&b_st, idx, x, ib, quartetOffset, 2, iwork, xwork);
+            merge_block(b_st, idx, x, ib, quartetOffset, 2, iwork, xwork);
           }
           ib = 8;
         }
       }
       b_st.site = &wd_emlrtRSI;
-      merge_block(&b_st, idx, x, 0, nNonNaN, ib, iwork, xwork);
+      merge_block(b_st, idx, x, 0, wOffset_tmp, ib, iwork, xwork);
     }
   }
-  emlrtHeapReferenceStackLeaveFcnR2012b((emlrtConstCTX)sp);
+  emlrtHeapReferenceStackLeaveFcnR2012b((emlrtConstCTX)&sp);
 }
 
 } // namespace internal

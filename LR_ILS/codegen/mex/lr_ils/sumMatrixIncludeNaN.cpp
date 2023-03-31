@@ -19,49 +19,49 @@
 static emlrtRSInfo yb_emlrtRSI{
     178,          // lineNo
     "sumColumnB", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/datafun/private/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/datafun/private/"
     "sumMatrixIncludeNaN.m" // pathName
 };
 
 static emlrtRSInfo ac_emlrtRSI{
     182,          // lineNo
     "sumColumnB", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/datafun/private/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/datafun/private/"
     "sumMatrixIncludeNaN.m" // pathName
 };
 
 static emlrtRSInfo bc_emlrtRSI{
     184,          // lineNo
     "sumColumnB", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/datafun/private/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/datafun/private/"
     "sumMatrixIncludeNaN.m" // pathName
 };
 
 static emlrtRSInfo cc_emlrtRSI{
     189,          // lineNo
     "sumColumnB", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/datafun/private/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/datafun/private/"
     "sumMatrixIncludeNaN.m" // pathName
 };
 
 static emlrtRSInfo dc_emlrtRSI{
     210,         // lineNo
     "sumColumn", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/datafun/private/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/datafun/private/"
     "sumMatrixIncludeNaN.m" // pathName
 };
 
 // Function Definitions
 namespace coder {
-real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
+real_T sumColumnB(const emlrtStack &sp, const ::coder::array<real_T, 1U> &x,
                   int32_T vlen)
 {
   emlrtStack b_st;
   emlrtStack c_st;
   emlrtStack st;
   real_T y;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   b_st.prev = &st;
   b_st.tls = st.tls;
   c_st.prev = &b_st;
@@ -72,7 +72,7 @@ real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
     b_st.site = &dc_emlrtRSI;
     if (vlen - 1 > 2147483646) {
       c_st.site = &gb_emlrtRSI;
-      check_forloop_overflow_error(&c_st);
+      check_forloop_overflow_error(c_st);
     }
     for (int32_T k{0}; k <= vlen - 2; k++) {
       y += x[k + 1];
@@ -114,15 +114,15 @@ real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
   return y;
 }
 
-real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
+real_T sumColumnB(const emlrtStack &sp, const ::coder::array<real_T, 1U> &x,
                   int32_T vlen, int32_T vstart)
 {
   emlrtStack b_st;
   emlrtStack c_st;
   emlrtStack st;
   real_T y;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   b_st.prev = &st;
   b_st.tls = st.tls;
   c_st.prev = &b_st;
@@ -133,7 +133,7 @@ real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
     b_st.site = &dc_emlrtRSI;
     if (vlen - 1 > 2147483646) {
       c_st.site = &gb_emlrtRSI;
-      check_forloop_overflow_error(&c_st);
+      check_forloop_overflow_error(c_st);
     }
     for (int32_T k{0}; k <= vlen - 2; k++) {
       y += x[vstart + k];

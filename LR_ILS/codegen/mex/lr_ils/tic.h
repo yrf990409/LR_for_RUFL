@@ -21,7 +21,7 @@
 
 // Function Declarations
 namespace coder {
-void tic(const emlrtStack *sp);
+void tic(const emlrtStack &sp);
 
 }
 

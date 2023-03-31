@@ -13,19 +13,19 @@
 #include "rt_nonfinite.h"
 
 // Function Definitions
-real_T c_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src,
+real_T c_emlrt_marshallIn(const emlrtStack &sp, const mxArray *src,
                           const emlrtMsgIdentifier *msgId)
 {
   static const int32_T dims{0};
   real_T ret;
-  emlrtCheckBuiltInR2012b((emlrtConstCTX)sp, msgId, src, "double", false, 0U,
+  emlrtCheckBuiltInR2012b((emlrtConstCTX)&sp, msgId, src, "double", false, 0U,
                           (const void *)&dims);
   ret = *static_cast<real_T *>(emlrtMxGetData(src));
   emlrtDestroyArray(&src);
   return ret;
 }
 
-real_T emlrt_marshallIn(const emlrtStack *sp, const mxArray *u,
+real_T emlrt_marshallIn(const emlrtStack &sp, const mxArray *u,
                         const emlrtMsgIdentifier *parentId)
 {
   real_T y;

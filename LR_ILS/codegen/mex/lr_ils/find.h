@@ -22,7 +22,7 @@
 
 // Function Declarations
 namespace coder {
-void eml_find(const emlrtStack *sp, const ::coder::array<boolean_T, 2U> &x,
+void eml_find(const emlrtStack &sp, const ::coder::array<boolean_T, 2U> &x,
               ::coder::array<int32_T, 2U> &i);
 
 }

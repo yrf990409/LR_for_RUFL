@@ -21,7 +21,7 @@
 #include <cstring>
 
 // Function Declarations
-void lb_y(const emlrtStack *sp,
+void lb_y(const emlrtStack &sp,
           const coder::array<real_T, 1U> &lr_case_data_fix,
           const coder::array<real_T, 2U> &lr_case_bar_J,
           const coder::array<real_T, 2U> &lr_case_mu,

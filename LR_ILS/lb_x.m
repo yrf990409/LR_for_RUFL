@@ -32,7 +32,7 @@ if ~flag_fast % 快速模式不启动dfs
     dmd = data.dmd;
     price = data.price;
     pi = price(2,1);    % 惩罚成本
-    for j = 1:length(I)
+    parfor j = 1:length(I)
         cus = I(j);
         best_r = plan(j,:); % 当前最优路径
         ub = trans_cost(j); % 当前上界

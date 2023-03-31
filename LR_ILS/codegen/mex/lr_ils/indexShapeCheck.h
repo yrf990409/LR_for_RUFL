@@ -22,7 +22,7 @@
 // Function Declarations
 namespace coder {
 namespace internal {
-void indexShapeCheck(const emlrtStack *sp, int32_T matrixSize);
+void indexShapeCheck(const emlrtStack &sp, int32_T matrixSize);
 
 }
 } // namespace coder

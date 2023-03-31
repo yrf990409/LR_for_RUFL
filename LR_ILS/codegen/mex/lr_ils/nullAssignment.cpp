@@ -19,44 +19,44 @@
 static emlrtRSInfo lb_emlrtRSI{
     169,                      // lineNo
     "onearg_null_assignment", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
     "nullAssignment.m" // pathName
 };
 
 static emlrtRSInfo mb_emlrtRSI{
     172,                      // lineNo
     "onearg_null_assignment", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
     "nullAssignment.m" // pathName
 };
 
 static emlrtRSInfo nb_emlrtRSI{
     132,        // lineNo
     "num_true", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
     "nullAssignment.m" // pathName
 };
 
-static emlrtRTEInfo m_emlrtRTEI{
+static emlrtRTEInfo n_emlrtRTEI{
     184,                      // lineNo
     9,                        // colNo
     "onearg_null_assignment", // fName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
     "nullAssignment.m" // pName
 };
 
-static emlrtRTEInfo wc_emlrtRTEI{
+static emlrtRTEInfo ed_emlrtRTEI{
     17,               // lineNo
     9,                // colNo
     "nullAssignment", // fName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/eml/+coder/+internal/"
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/eml/+coder/+internal/"
     "nullAssignment.m" // pName
 };
 
 // Function Definitions
 namespace coder {
 namespace internal {
-void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
+void nullAssignment(const emlrtStack &sp, ::coder::array<real_T, 2U> &x,
                     const ::coder::array<boolean_T, 2U> &idx)
 {
   emlrtStack b_st;
@@ -67,8 +67,8 @@ void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
   int32_T k0;
   int32_T nxin;
   int32_T nxout;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   st.site = &ib_emlrtRSI;
   b_st.prev = &st;
   b_st.tls = st.tls;
@@ -81,7 +81,7 @@ void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
     k--;
   }
   if (k > x.size(1)) {
-    emlrtErrorWithMessageIdR2018a(&st, &k_emlrtRTEI,
+    emlrtErrorWithMessageIdR2018a(&st, &l_emlrtRTEI,
                                   "MATLAB:subsdeldimmismatch",
                                   "MATLAB:subsdeldimmismatch", 0);
   }
@@ -93,7 +93,7 @@ void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
   c_st.site = &nb_emlrtRSI;
   if (idx.size(1) > 2147483646) {
     d_st.site = &gb_emlrtRSI;
-    check_forloop_overflow_error(&d_st);
+    check_forloop_overflow_error(d_st);
   }
   for (k = 0; k < k0; k++) {
     nxout += idx[k];
@@ -103,7 +103,7 @@ void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
   b_st.site = &mb_emlrtRSI;
   if (x.size(1) > 2147483646) {
     c_st.site = &gb_emlrtRSI;
-    check_forloop_overflow_error(&c_st);
+    check_forloop_overflow_error(c_st);
   }
   for (k = 0; k < nxin; k++) {
     if ((k + 1 > idx.size(1)) || (!idx[k])) {
@@ -112,14 +112,14 @@ void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
     }
   }
   if (nxout > x.size(1)) {
-    emlrtErrorWithMessageIdR2018a(&st, &m_emlrtRTEI,
+    emlrtErrorWithMessageIdR2018a(&st, &n_emlrtRTEI,
                                   "Coder:builtins:AssertionFailed",
                                   "Coder:builtins:AssertionFailed", 0);
   }
   if (nxout < 1) {
     nxout = 0;
   }
-  x.set_size(&wc_emlrtRTEI, &st, x.size(0), nxout);
+  x.set_size(&ed_emlrtRTEI, &st, x.size(0), nxout);
 }
 
 } // namespace internal

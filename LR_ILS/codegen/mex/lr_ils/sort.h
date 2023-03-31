@@ -23,7 +23,7 @@
 // Function Declarations
 namespace coder {
 namespace internal {
-void sort(const emlrtStack *sp, ::coder::array<real_T, 1U> &x,
+void sort(const emlrtStack &sp, ::coder::array<real_T, 1U> &x,
           ::coder::array<int32_T, 1U> &idx);
 
 }

@@ -22,11 +22,11 @@
 
 // Function Declarations
 namespace coder {
-real_T b_sum(const emlrtStack *sp, const ::coder::array<real_T, 2U> &x);
+real_T b_sum(const emlrtStack &sp, const ::coder::array<real_T, 2U> &x);
 
-real_T sum(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x);
+real_T sum(const emlrtStack &sp, const ::coder::array<real_T, 2U> &x);
 
-real_T sum(const emlrtStack *sp, const ::coder::array<real_T, 2U> &x);
+real_T sum(const emlrtStack &sp, const ::coder::array<real_T, 1U> &x);
 
 } // namespace coder
 

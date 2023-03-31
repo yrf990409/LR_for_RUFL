@@ -21,35 +21,37 @@
 #include <cstring>
 
 // Function Declarations
-void b_ub_xy(const emlrtStack *sp,
+real_T b_ub_xy(const emlrtStack &sp,
+               const coder::array<real_T, 2U> &lr_case_data_price,
+               const coder::array<real_T, 1U> &lr_case_data_dmd,
+               const coder::array<real_T, 1U> &lr_case_data_fix,
+               const coder::array<real_T, 1U> &lr_case_q,
+               real_T lr_case_max_try,
+               const coder::array<real_T, 2U> &lr_case_bar_J,
+               const coder::array<real_T, 2U> &lr_case_I,
+               coder::array<boolean_T, 2U> &location,
+               coder::array<real_T, 2U> &plan);
+
+real_T c_ub_xy(const emlrtStack &sp,
+               const coder::array<real_T, 2U> &lr_case_data_price,
+               const coder::array<real_T, 1U> &lr_case_data_dmd,
+               const coder::array<real_T, 1U> &lr_case_data_fix,
+               const coder::array<real_T, 1U> &lr_case_q,
+               real_T lr_case_max_try,
+               const coder::array<real_T, 2U> &lr_case_bar_J,
+               const coder::array<real_T, 2U> &lr_case_I,
+               coder::array<boolean_T, 2U> &location,
+               coder::array<real_T, 2U> &plan);
+
+real_T ub_xy(const emlrtStack &sp,
              const coder::array<real_T, 2U> &lr_case_data_price,
              const coder::array<real_T, 1U> &lr_case_data_dmd,
              const coder::array<real_T, 1U> &lr_case_data_fix,
              const coder::array<real_T, 1U> &lr_case_q, real_T lr_case_max_try,
              const coder::array<real_T, 2U> &lr_case_bar_J,
              const coder::array<real_T, 2U> &lr_case_I,
-             coder::array<boolean_T, 2U> &location, real_T *obj,
-             coder::array<real_T, 2U> &plan);
-
-void c_ub_xy(const emlrtStack *sp,
-             const coder::array<real_T, 2U> &lr_case_data_price,
-             const coder::array<real_T, 1U> &lr_case_data_dmd,
-             const coder::array<real_T, 1U> &lr_case_data_fix,
-             const coder::array<real_T, 1U> &lr_case_q, real_T lr_case_max_try,
-             const coder::array<real_T, 2U> &lr_case_bar_J,
-             const coder::array<real_T, 2U> &lr_case_I,
-             coder::array<boolean_T, 2U> &location, real_T *obj,
-             coder::array<real_T, 2U> &plan);
-
-void ub_xy(const emlrtStack *sp,
-           const coder::array<real_T, 2U> &lr_case_data_price,
-           const coder::array<real_T, 1U> &lr_case_data_dmd,
-           const coder::array<real_T, 1U> &lr_case_data_fix,
-           const coder::array<real_T, 1U> &lr_case_q, real_T lr_case_max_try,
-           const coder::array<real_T, 2U> &lr_case_bar_J,
-           const coder::array<real_T, 2U> &lr_case_I,
-           coder::array<boolean_T, 2U> &location, boolean_T flag_fast,
-           real_T *obj, coder::array<real_T, 2U> &plan,
-           coder::array<real_T, 1U> &trans_cost);
+             coder::array<boolean_T, 2U> &location, boolean_T flag_fast,
+             coder::array<real_T, 2U> &plan,
+             coder::array<real_T, 1U> &trans_cost);
 
 // End of code generation (ub_xy.h)

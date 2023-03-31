@@ -25,7 +25,7 @@ for iter = 1:lr_para.eta_ils
     % 计算前 5 个 最佳索引的精准上界
     temp_best_loc = nb(sort_ind(1:5),:);
     temp_cost_rec = zeros(5,1);
-    for i = 1:5
+    parfor i = 1:5
         [temp_cost_rec(i), ~] = ub_xy(lr_case, temp_best_loc(i,:), false); % 求快速解
     end
     
@@ -38,7 +38,7 @@ for iter = 1:lr_para.eta_ils
     else % 概率接受不那么好的解
         if rand < exp((best_nb_cost - current_ub )/temperature)
             current_ub = best_nb_cost;          % 记录临时上界
-            current_loc = nb(i,:);          % 临时选址方案
+            current_loc = temp_best_loc(min_ind,:); % 临时选址方案
         end
     end
     

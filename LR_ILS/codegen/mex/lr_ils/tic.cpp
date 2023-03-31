@@ -19,12 +19,12 @@
 static emlrtRSInfo o_emlrtRSI{
     34,    // lineNo
     "tic", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/timefun/tic.m" // pathName
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/timefun/tic.m" // pathName
 };
 
 // Function Definitions
 namespace coder {
-void tic(const emlrtStack *sp)
+void tic(const emlrtStack &sp)
 {
   emlrtStack b_st;
   emlrtStack c_st;
@@ -32,8 +32,8 @@ void tic(const emlrtStack *sp)
   emlrtStack st;
   emlrtTimespec t;
   int32_T status;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   st.site = &o_emlrtRSI;
   b_st.prev = &st;
   b_st.tls = st.tls;
@@ -47,11 +47,11 @@ void tic(const emlrtStack *sp)
   d_st.site = &r_emlrtRSI;
   if (status != 0) {
     emlrtErrorWithMessageIdR2018a(
-        &d_st, &b_emlrtRTEI, "Coder:toolbox:CoderTimeCallFailed",
+        &d_st, &c_emlrtRTEI, "Coder:toolbox:CoderTimeCallFailed",
         "Coder:toolbox:CoderTimeCallFailed", 5, 4, 26, &cv[0], 12, status);
   }
   st.site = &o_emlrtRSI;
-  internal::time::impl::timeKeeper(&st, t);
+  internal::b_time::impl::timeKeeper(st, t);
 }
 
 } // namespace coder

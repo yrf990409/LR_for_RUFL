@@ -22,15 +22,14 @@
 // Function Declarations
 namespace coder {
 namespace internal {
-namespace time {
+namespace b_time {
 namespace impl {
-void timeKeeper(const emlrtStack *sp, const emlrtTimespec newTime);
+real_T timeKeeper(const emlrtStack &sp, real_T &outTime_tv_nsec);
 
-void timeKeeper(const emlrtStack *sp, real_T *outTime_tv_sec,
-                real_T *outTime_tv_nsec);
+void timeKeeper(const emlrtStack &sp, const emlrtTimespec newTime);
 
 } // namespace impl
-} // namespace time
+} // namespace b_time
 } // namespace internal
 } // namespace coder
 void timeKeeper_free();

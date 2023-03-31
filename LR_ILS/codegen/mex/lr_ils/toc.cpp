@@ -19,18 +19,18 @@
 static emlrtRSInfo af_emlrtRSI{
     31,    // lineNo
     "toc", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/timefun/toc.m" // pathName
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/timefun/toc.m" // pathName
 };
 
 static emlrtRSInfo bf_emlrtRSI{
     36,    // lineNo
     "toc", // fcnName
-    "/Applications/MATLAB_R2022b.app/toolbox/eml/lib/matlab/timefun/toc.m" // pathName
+    "/Applications/MATLAB_R2023a.app/toolbox/eml/lib/matlab/timefun/toc.m" // pathName
 };
 
 // Function Definitions
 namespace coder {
-real_T toc(const emlrtStack *sp)
+real_T toc(const emlrtStack &sp)
 {
   emlrtStack b_st;
   emlrtStack c_st;
@@ -40,8 +40,8 @@ real_T toc(const emlrtStack *sp)
   real_T tstart_tv_nsec;
   real_T tstart_tv_sec;
   int32_T status;
-  st.prev = sp;
-  st.tls = sp->tls;
+  st.prev = &sp;
+  st.tls = sp.tls;
   st.site = &af_emlrtRSI;
   b_st.prev = &st;
   b_st.tls = st.tls;
@@ -49,7 +49,7 @@ real_T toc(const emlrtStack *sp)
   c_st.tls = b_st.tls;
   d_st.prev = &c_st;
   d_st.tls = c_st.tls;
-  internal::time::impl::timeKeeper(&st, &tstart_tv_sec, &tstart_tv_nsec);
+  tstart_tv_sec = internal::b_time::impl::timeKeeper(st, tstart_tv_nsec);
   st.site = &bf_emlrtRSI;
   b_st.site = &p_emlrtRSI;
   c_st.site = &q_emlrtRSI;
@@ -57,7 +57,7 @@ real_T toc(const emlrtStack *sp)
   d_st.site = &r_emlrtRSI;
   if (status != 0) {
     emlrtErrorWithMessageIdR2018a(
-        &d_st, &b_emlrtRTEI, "Coder:toolbox:CoderTimeCallFailed",
+        &d_st, &c_emlrtRTEI, "Coder:toolbox:CoderTimeCallFailed",
         "Coder:toolbox:CoderTimeCallFailed", 5, 4, 26, &cv[0], 12, status);
   }
   return (tnow.tv_sec - tstart_tv_sec) +

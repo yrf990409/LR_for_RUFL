@@ -21,7 +21,7 @@
 
 // Function Declarations
 namespace coder {
-void check_forloop_overflow_error(const emlrtStack *sp);
+void check_forloop_overflow_error(const emlrtStack &sp);
 
 }
 

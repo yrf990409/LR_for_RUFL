@@ -20,10 +20,10 @@
 #include <cstring>
 
 // Function Declarations
-real_T c_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src,
+real_T c_emlrt_marshallIn(const emlrtStack &sp, const mxArray *src,
                           const emlrtMsgIdentifier *msgId);
 
-real_T emlrt_marshallIn(const emlrtStack *sp, const mxArray *u,
+real_T emlrt_marshallIn(const emlrtStack &sp, const mxArray *u,
                         const emlrtMsgIdentifier *parentId);
 
 // End of code generation (lr_ils_mexutil.h)

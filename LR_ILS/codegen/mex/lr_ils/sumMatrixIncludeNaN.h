@@ -22,10 +22,10 @@
 
 // Function Declarations
 namespace coder {
-real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
+real_T sumColumnB(const emlrtStack &sp, const ::coder::array<real_T, 1U> &x,
                   int32_T vlen);
 
-real_T sumColumnB(const emlrtStack *sp, const ::coder::array<real_T, 1U> &x,
+real_T sumColumnB(const emlrtStack &sp, const ::coder::array<real_T, 1U> &x,
                   int32_T vlen, int32_T vstart);
 
 real_T sumColumnB4(const ::coder::array<real_T, 1U> &x, int32_T vstart);

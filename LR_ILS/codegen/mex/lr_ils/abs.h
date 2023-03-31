@@ -22,7 +22,7 @@
 
 // Function Declarations
 namespace coder {
-void b_abs(const emlrtStack *sp, const ::coder::array<real_T, 2U> &x,
+void b_abs(const emlrtStack &sp, const ::coder::array<real_T, 2U> &x,
            ::coder::array<real_T, 2U> &y);
 
 }

@@ -23,7 +23,7 @@
 // Function Declarations
 namespace coder {
 namespace internal {
-void nullAssignment(const emlrtStack *sp, ::coder::array<real_T, 2U> &x,
+void nullAssignment(const emlrtStack &sp, ::coder::array<real_T, 2U> &x,
                     const ::coder::array<boolean_T, 2U> &idx);
 
 }

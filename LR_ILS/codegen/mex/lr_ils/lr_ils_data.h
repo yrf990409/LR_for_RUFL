@@ -42,10 +42,11 @@ extern emlrtRSInfo oc_emlrtRSI;
 extern emlrtRSInfo pc_emlrtRSI;
 extern omp_lock_t emlrtLockGlobal;
 extern omp_nest_lock_t lr_ils_nestLockGlobal;
-extern emlrtRTEInfo b_emlrtRTEI;
-extern emlrtRTEInfo d_emlrtRTEI;
-extern emlrtRTEInfo g_emlrtRTEI;
-extern emlrtRTEInfo k_emlrtRTEI;
+extern emlrtRTEInfo c_emlrtRTEI;
+extern emlrtRTEInfo e_emlrtRTEI;
+extern emlrtRTEInfo h_emlrtRTEI;
+extern emlrtRTEInfo l_emlrtRTEI;
+extern emlrtRTEInfo gb_emlrtRTEI;
 extern const char_T cv[26];
 
 // End of code generation (lr_ils_data.h)

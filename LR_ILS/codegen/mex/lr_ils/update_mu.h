@@ -21,14 +21,7 @@
 #include <cstring>
 
 // Function Declarations
-void update_mu(const emlrtStack *sp,
-               const coder::array<real_T, 2U> &lr_case_bar_J,
-               const coder::array<real_T, 2U> &lr_case_I,
-               const coder::array<real_T, 2U> &lr_case_mu, real_T lr_para_alpha,
-               real_T lr_para_theta_lr, real_T lr_para_kappa_lb,
-               boolean_T lr_para_square, real_T lb, real_T ub,
-               const coder::array<real_T, 2U> &plan_lb,
-               const coder::array<boolean_T, 2U> &location, real_T *cnt_step,
-               coder::array<real_T, 2U> &mu, real_T *alpha);
+void binary_expand_op(const emlrtStack &sp, coder::array<real_T, 2U> &in1,
+                      const coder::array<boolean_T, 2U> &in2);
 
 // End of code generation (update_mu.h)

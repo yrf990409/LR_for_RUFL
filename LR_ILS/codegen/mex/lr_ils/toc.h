@@ -21,7 +21,7 @@
 
 // Function Declarations
 namespace coder {
-real_T toc(const emlrtStack *sp);
+real_T toc(const emlrtStack &sp);
 
 }
 

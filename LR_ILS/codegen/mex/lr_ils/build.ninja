@@ -5,8 +5,8 @@ ninja_required_version = 1.3
 # Basic folders
 root = .
 builddir = $root/build/maci64
-matlabdir = /Applications/MATLAB_R2022b.app
-startdir = /Users/yurunfeng/Nutstore Files/我的坚果云/code/LR_ILS
+matlabdir = /Applications/MATLAB_R2023a.app
+startdir = /Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS
 
 # Toolchain information
 cc = /usr/bin/xcrun -sdk macosx13.1 clang
@@ -43,6 +43,7 @@ build $builddir/lr_ils_terminate.o : cxx $root/lr_ils_terminate.cpp
 build $builddir/lr_ils.o : cxx $root/lr_ils.cpp
 build $builddir/tic.o : cxx $root/tic.cpp
 build $builddir/timeKeeper.o : cxx $root/timeKeeper.cpp
+build $builddir/lb_x.o : cxx $root/lb_x.cpp
 build $builddir/lb_y.o : cxx $root/lb_y.cpp
 build $builddir/sum.o : cxx $root/sum.cpp
 build $builddir/ub_xy.o : cxx $root/ub_xy.cpp
@@ -55,7 +56,6 @@ build $builddir/_coder_lr_ils_api.o : cxx $root/interface/_coder_lr_ils_api.cpp
 build $builddir/_coder_lr_ils_mex.o : cxx $root/interface/_coder_lr_ils_mex.cpp
 build $builddir/eml_int_forloop_overflow_check.o : cxx $root/eml_int_forloop_overflow_check.cpp
 build $builddir/sumMatrixIncludeNaN.o : cxx $root/sumMatrixIncludeNaN.cpp
-build $builddir/lb_x.o : cxx $root/lb_x.cpp
 build $builddir/nullAssignment.o : cxx $root/nullAssignment.cpp
 build $builddir/lb_dfs.o : cxx $root/lb_dfs.cpp
 build $builddir/ub_ils.o : cxx $root/ub_ils.cpp
@@ -67,4 +67,4 @@ build $builddir/_coder_lr_ils_info.o : cxx $root/interface/_coder_lr_ils_info.cp
 build $builddir/cpp_mexapi_version.o : cxx $matlabdir/extern/version/cpp_mexapi_version.cpp
 
 # Link
-build $root/lr_ils_mex.mexmaci64 : linkxx $builddir/lr_ils_data.o $builddir/rt_nonfinite.o $builddir/lr_ils_initialize.o $builddir/lr_ils_terminate.o $builddir/lr_ils.o $builddir/tic.o $builddir/timeKeeper.o $builddir/lb_y.o $builddir/sum.o $builddir/ub_xy.o $builddir/find.o $builddir/indexShapeCheck.o $builddir/rand.o $builddir/abs.o $builddir/toc.o $builddir/_coder_lr_ils_api.o $builddir/_coder_lr_ils_mex.o $builddir/eml_int_forloop_overflow_check.o $builddir/sumMatrixIncludeNaN.o $builddir/lb_x.o $builddir/nullAssignment.o $builddir/lb_dfs.o $builddir/ub_ils.o $builddir/sort.o $builddir/sortIdx.o $builddir/update_mu.o $builddir/lr_ils_mexutil.o $builddir/_coder_lr_ils_info.o $builddir/cpp_mexapi_version.o 
+build $root/lr_ils_mex.mexmaci64 : linkxx $builddir/lr_ils_data.o $builddir/rt_nonfinite.o $builddir/lr_ils_initialize.o $builddir/lr_ils_terminate.o $builddir/lr_ils.o $builddir/tic.o $builddir/timeKeeper.o $builddir/lb_x.o $builddir/lb_y.o $builddir/sum.o $builddir/ub_xy.o $builddir/find.o $builddir/indexShapeCheck.o $builddir/rand.o $builddir/abs.o $builddir/toc.o $builddir/_coder_lr_ils_api.o $builddir/_coder_lr_ils_mex.o $builddir/eml_int_forloop_overflow_check.o $builddir/sumMatrixIncludeNaN.o $builddir/nullAssignment.o $builddir/lb_dfs.o $builddir/ub_ils.o $builddir/sort.o $builddir/sortIdx.o $builddir/update_mu.o $builddir/lr_ils_mexutil.o $builddir/_coder_lr_ils_info.o $builddir/cpp_mexapi_version.o 

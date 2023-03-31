@@ -63,21 +63,21 @@ lr_para.tau_lim     = 1000;     % 优化时长
 lr_para.xi          = 0.01;     % 接受gap
 lr_para.theta_sa    = 1.2;      % 模拟退火初始温度参数
 lr_para.T_lim       = 0.0001;   % 模拟退火最低温度
-lr_para.kappa_ub    = 100;      % 触发ILS上界连续不变次数 (200)
+lr_para.kappa_ub    = 200;      % 触发ILS上界连续不变次数 (200)
 lr_para.kappa_ubdfs = 500;      % 触发上界DFS搜索(delete)
 lr_para.eta_ils     = 10;       % ILS迭代次数
 lr_para.grb_model   = 1;        % 使用Gurobi建模 取值 0 1
 lr_para.grb_ub      = 1;        % 使用Gurobi获取上界 取值0 1
 lr_para.dfs_gap     = 0.2;      % gap小于此值才启动DFS
 lr_para.print       = true;     % 是否打印
-lr_para.ils         = false;     % 是否使用ILS
+lr_para.ils         = true;     % 是否使用ILS
 lr_para.square      = false;     % 是否使用步长平方分母
 
 %% 案例参数
 % lr_case = struct();
-path = './data/SnyderData/49nodes/';
+path = './data/SnyderData/150nodes/';
 lr_case.data = data_reader(path);
-lr_case.rho = 0.3;                                          % 损坏概率控制参数
+lr_case.rho = 0.01;                                          % 损坏概率控制参数
 lr_case.q = lr_case.rho * exp(-lr_case.data.fix/200000);    % 损坏概率
 lr_case.q(1) = 1;                                           % 虚拟设施的损坏概率
 lr_case.max_try = 5;                                        % 最大尝试次数(R)
@@ -108,7 +108,7 @@ lr_result = lr_ils_mex(lr_para, lr_case);
 % draw_fig(lr_result)
 
 % 保存
-file_name = ['平方-', ...%              num2str(lr_case.node_num), '-' , ... % 点数
+file_name = ['结果-', ...%              num2str(lr_case.node_num), '-' , ... % 点数
              num2str(lr_case.rho),      '-' , ... % rho取值
              num2str(lr_case.max_try),  '-' , ... % 最大试错次数
              '.mat'];

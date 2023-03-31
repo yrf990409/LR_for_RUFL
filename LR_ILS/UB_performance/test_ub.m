@@ -10,7 +10,7 @@ clear
 clear classes
 close all
 diary off
-diary 'LB_PERF.log'
+diary 'UB_PERF.log'
 py.importlib.reload(py.importlib.import_module('m_ub'));
 addpath '../' % 调用父文件夹函数
 
@@ -71,7 +71,7 @@ for rho = [0.1 0.2 0.3]
         end
     end
 end
-
+diary off
 
 
 
