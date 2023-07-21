@@ -32,12 +32,12 @@
 
 
 %% 清除
-% clc
-% clear all
-% clear classes
+clc
+clear
 close all 
 diary off
 diary 'LR_ILS.log'
+addpath '../' % 调用父文件夹函数
 % py.importlib.reload(py.importlib.import_module('model'));
 
 % disp('拉格朗日松弛求解可靠设施选址问题(RUFL), Version 0.9, 初始版本')
@@ -60,7 +60,7 @@ lr_para.theta_lr    = 1.05;      % 步长比例系数
 lr_para.kappa_lb    = 10;       % 下界连续不变次数
 lr_para.eta_lr      = 3000;     % 迭代次数
 lr_para.tau_lim     = 1000;     % 优化时长
-lr_para.xi          = 0.01;     % 接受gap
+lr_para.xi          = 0.001;     % 接受gap
 lr_para.theta_sa    = 1.2;      % 模拟退火初始温度参数
 lr_para.T_lim       = 0.0001;   % 模拟退火最低温度
 lr_para.kappa_ub    = 200;      % 触发ILS上界连续不变次数 (200)
@@ -69,18 +69,37 @@ lr_para.eta_ils     = 10;       % ILS迭代次数
 lr_para.grb_model   = 1;        % 使用Gurobi建模 取值 0 1
 lr_para.grb_ub      = 1;        % 使用Gurobi获取上界 取值0 1
 lr_para.dfs_gap     = 0.2;      % gap小于此值才启动DFS (0.2 0.3)
-lr_para.print       = true;     % 是否打印
+lr_para.print       = false;     % 是否打印
 lr_para.ils         = true;     % 是否使用ILS
 lr_para.square      = false;     % 是否使用步长平方分母
 
 %% 案例参数
 % lr_case = struct();
-path = './data/SnyderData/15nodes/';
+path = '../data/Li2021JOCData/16nodes/';
 lr_case.data = data_reader(path);
-lr_case.rho = 0.05;                                          % 损坏概率控制参数
-lr_case.q = lr_case.rho * exp(-lr_case.data.fix/200000);    % 损坏概率
+coeff = 0.6
+lr_case.data.price = coeff * lr_case.data.price;
+lr_case.data.price(:,1) = 10000; % 10000
+lr_case.data.price(1,:) = 10000;
+lr_case.data.price(1,1) = 0;
+
+lr_case.data.dmd = lr_case.data.dmd / 4; 
+lr_case.data.fix = lr_case.data.fix * 100;
+
+
+
+lr_case.rho = 0.0;                                          % 损坏概率控制参数
+lr_case.q = load([path,'failure.csv']);                     % 使用案例损坏概率
+
+% beta = 1
+% for i = 1:length(lr_case.q)
+%     lr_case.q(i) = beta * sqrt(2*lr_case.q(i) -  lr_case.q(i)^2);
+% end
+
+
+
 lr_case.q(1) = 1;                                           % 虚拟设施的损坏概率
-lr_case.max_try = 5;                                        % 最大尝试次数(R)
+lr_case.max_try = 5;                                        % 最大尝试次数(R) 5
 lr_case.cus_num = length(lr_case.data.dmd);                 % 客户数量
 lr_case.node_num = size(lr_case.data.price,1);              % (虚拟 实体 客户)的总数
 lr_case.fac_num = lr_case.node_num - lr_case.cus_num - 1;   % 设施总数
@@ -94,10 +113,7 @@ for i = 1:lr_case.cus_num
             lr_case.data.fix(j)) / length(lr_case.data.fix);
     end
 end
-% lr_case.mu = zeros(lr_case.cus_num, length(lr_case.bar_J)); % 方法0: 全0初始乘子
-% for j = lr_case.bar_J(2:end)                   % 方法1: 参考文献初始乘子
-%     lr_case.mu(:,j) = lr_case.data.fix(j) / length(lr_case.I);
-% end
+
 
 
 %% 优化
@@ -106,6 +122,29 @@ lr_result = lr_ils_mex(lr_para, lr_case);
 
 %% 结果处理
 % draw_fig(lr_result)
+coord = load([path,'coord.csv']); 
+region_name = ["广东东部"
+               "广东西部"
+               "福建南部"
+               "福建北部"
+               "海南南部"
+               "海南北部"
+               "台湾南部"
+               "台湾北部"
+               "浙江南部"
+               "浙江北部"
+               "广西"
+               "江苏"
+               "江西"
+               "山东"
+               "安徽"
+               "上海"];
+% for i = 1:lr_case.max_try
+%     draw_geofig(lr_result, coord, region_name, i-1)
+% end
+
+draw_geofig(lr_result, coord, region_name, lr_case.max_try-1)
+
 
 % 保存
 file_name = ['结果-', ...%              num2str(lr_case.node_num), '-' , ... % 点数
@@ -113,7 +152,26 @@ file_name = ['结果-', ...%              num2str(lr_case.node_num), '-' , ... %
              num2str(lr_case.max_try),  '-' , ... % 最大试错次数
              '.mat'];
 save(file_name,'lr_result')
-disp(find(lr_result.bst_loc==true))
+disp(['pi: ', num2str(lr_case.data.price(2))])
+disp(find(lr_result.bst_loc==true)-1)
+disp(['fix: ', num2str(sum(lr_case.data.fix(lr_result.bst_loc)))])
+% disp(sum(lr_case.data.fix(lr_result.bst_loc)) / lr_result.bst_ub)
+
+
+% 计算惩罚成本
+sqc = lr_result.bst_sqc;
+temp_pun = zeros(length(lr_case.I),1);
+temp = zeros(length(lr_case.I),1);
+for i = 1:length(lr_case.I)
+    sqc_i = sqc(i,:);
+    temp_pun(i) = prod(lr_case.q(sqc_i(2:end-1))) * lr_case.data.dmd(i) * lr_case.data.price(2);
+    temp(i) =  lr_case.data.dmd(i) * lr_case.data.price(sqc_i(1),sqc_i(2));
+end
+disp(sum(temp_pun))
+
+
+
 % fprintf('rho \t 最大试错次数 \t 上界 \t 下界 \t 求解时间\n')
 fprintf('%d \t %.2f \t %d \t %.2f \t %.2f \t %.2f \n', lr_case.node_num, lr_case.rho, lr_case.max_try, lr_result.bst_ub, lr_result.bst_lb, lr_result.time)
+disp('-----------------------')
 diary off

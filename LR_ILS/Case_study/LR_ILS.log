@@ -1,0 +1,294 @@
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+pi: 10000
+    11    13    15
+
+fix: 2187680
+     5.919227363700000e+03
+
+33 	 0.00 	 5 	 5224313.78 	 5219156.98 	 0.03 
+-----------------------
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+pi: 10000
+    11    13    15
+
+fix: 2187680
+     5.919227363700000e+03
+
+33 	 0.00 	 5 	 5224313.78 	 5219156.98 	 0.04 
+-----------------------
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+{位置 2 处的索引无效。数组索引必须为正整数或逻辑值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 26)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',26,0)">第 26 行</a>)
+        frequency(current,successor) = frequency(current,successor) + 1;
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 143)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',143,0)">第 143 行</a>)
+    draw_geofig(lr_result, coord, region_name, i-1)
+} 
+opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',26,0)
+opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',26,0)
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+{位置 2 处的索引无效。数组索引必须为正整数或逻辑值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 26)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',26,0)">第 26 行</a>)
+        frequency(current,successor) = frequency(current,successor) + 1;
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 143)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',143,0)">第 143 行</a>)
+    draw_geofig(lr_result, coord, region_name, i-1)
+} 
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+java.lang.NullPointerException
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:57)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(UnsafeObjectFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at sun.lwawt.macosx.CAccessibility.getAccessibleRoleFor(CAccessibility.java:248)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:263)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:260)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+if system_dependent('IsDebugMode')==1, dbcont; end
+{位置 2 处的索引无效。数组索引必须为正整数或逻辑值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 26)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',26,0)">第 26 行</a>)
+        frequency(current,successor) = frequency(current,successor) + 1;
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 143)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',143,0)">第 143 行</a>)
+    draw_geofig(lr_result, coord, region_name, i-1)
+} 
+if system_dependent('IsDebugMode')==1, dbquit all; end
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+if system_dependent('IsDebugMode')==1, dbcont; end
+{位置 1 处的索引无效。数组索引必须为正整数或逻辑值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 44)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',44,0)">第 44 行</a>)
+            geoplot(coord([current,successor],1), ...
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 146)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',146,0)">第 146 行</a>)
+draw_geofig(lr_result, coord, region_name, lr_case.max_try)
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('geoscatter')" style="font-weight:bold">geoscatter</a>
+不支持将 GeographicAxes 添加到 axes。请关闭 hold。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 53)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',53,0)">第 53 行</a>)
+geoscatter(coord(located,1), coord(located,2), 90, "^",'red','filled')
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 146)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',146,0)">第 146 行</a>)
+draw_geofig(lr_result, coord, region_name, lr_case.max_try-1)
+} 
+opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',53,0)
+dbup 1;
+if system_dependent('IsDebugMode')==1, dbstep; end
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+clc
+clear
+clc
+load('结果-0-5-.mat')
+path = '../data/Li2021JOCData/16nodes/';
+coord = load([path,'coord.csv']); 
+region_name = ["广东东部"
+               "广东西部"
+               "福建南部"
+               "福建北部"
+               "海南南部"
+               "海南北部"
+               "台湾南部"
+               "台湾北部"
+               "浙江南部"
+               "浙江北部"
+               "广西"
+               "江苏"
+               "江西"
+               "山东"
+               "安徽"
+               "上海"];
+lr_case.max_try = 5
+
+lr_case = 
+
+  包含以下字段的 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a>:
+
+    max_try: 5
+
+draw_geofig(lr_result, coord, region_name, lr_case.max_try
+ draw_geofig(lr_result, coord, region_name, lr_case.max_try
+                                                           ↑
+{无效表达式。调用函数或对变量进行索引时，请使用圆括号。否则，请检查不匹配的分隔符。
+} 
+draw_geofig(lr_result, coord, region_name, lr_case.max_try)
+<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',53,1)">53  </a>geoscatter(coord(located,1), coord(located,2), 90, "^",'red','filled')
+if system_dependent('IsDebugMode')==1, dbstep; end
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('geoscatter')" style="font-weight:bold">geoscatter</a>
+不支持将 GeographicAxes 添加到 axes。请关闭 hold。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 53)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',53,0)">第 53 行</a>)
+geoscatter(coord(located,1), coord(located,2), 90, "^",'red','filled')
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+draw_geofig(lr_result, coord, region_name, lr_case.max_try)
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('geoscatter')" style="font-weight:bold">geoscatter</a>
+不支持将 GeographicAxes 添加到 axes。请关闭 hold。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 53)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',53,0)">第 53 行</a>)
+geoscatter(coord(located,1), coord(located,2), 90, "^",'red','filled')
+} 
+<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/graphics/maps/geoscatter.m',130,1)">130 </a>        throw(e)
+dbup 1;
+if system_dependent('IsDebugMode')==1, dbquit all; end
+draw_geofig(lr_result, coord, region_name, lr_case.max_try)
+draw_geofig(lr_result, coord, region_name, lr_case.max_try)
+<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',11,1)">11  </a>sqc = lr_result.bst_sqc;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit all; end
+draw_geofig(lr_result, coord, region_name)
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rank', '/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m', 14)" style="font-weight:bold">rank</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m',14,0)">第 14 行</a>)
+s = svd(A);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 39)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',39,0)">第 39 行</a>)
+        if rank == 0
+} 
+<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m',14,1)">14  </a>s = svd(A);
+draw_geofig(lr_result, coord, region_name)
+{函数或变量 'lr_result' 无法识别。
+} 
+load('结果-0-5-.mat')
+path = '../data/Li2021JOCData/16nodes/';
+coord = load([path,'coord.csv']); 
+region_name = ["广东东部"
+               "广东西部"
+               "福建南部"
+               "福建北部"
+               "海南南部"
+               "海南北部"
+               "台湾南部"
+               "台湾北部"
+               "浙江南部"
+               "浙江北部"
+               "广西"
+               "江苏"
+               "江西"
+               "山东"
+               "安徽"
+               "上海"];
+draw_geofig(lr_result, coord, region_name)
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rank', '/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m', 14)" style="font-weight:bold">rank</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m',14,0)">第 14 行</a>)
+s = svd(A);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 39)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',39,0)">第 39 行</a>)
+        if rank == 0
+} 
+<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/matfun/rank.m',14,1)">14  </a>s = svd(A);
+opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',39,0)
+if system_dependent('IsDebugMode')==1, dbquit all; end
+draw_geofig(lr_result, coord, region_name)
+draw_geofig(lr_result, coord, region_name)
+draw_geofig(lr_result, coord, region_name)
+draw_geofig(lr_result, coord, region_name)
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('geoscatter')" style="font-weight:bold">geoscatter</a>
+不支持将 GeographicAxes 添加到 axes。请关闭 hold。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m', 55)" style="font-weight:bold">draw_geofig</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/draw_geofig.m',55,0)">第 55 行</a>)
+geoscatter(coord(located,1), coord(located,2), 90, "^",'red','filled')
+} 
+<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/graphics/maps/geoscatter.m',130,1)">130 </a>        throw(e)
+if system_dependent('IsDebugMode')==1, dbquit all; end
+Main_Case
+
+coeff =
+
+   0.600000000000000
+
+stop, gap
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('draw_geofig')" style="font-weight:bold">draw_geofig</a>
+输入参数太多。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_Case', '/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m', 146)" style="font-weight:bold">Main_Case</a> (<a href="matlab: opentoline('/Users/yurunfeng/Documents/Github/LR_for_RUFL/LR_ILS/Case_study/Main_Case.m',146,0)">第 146 行</a>)
+draw_geofig(lr_result, coord, region_name, lr_case.max_try-1)
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+draw_geofig(lr_result, coord, region_name)
