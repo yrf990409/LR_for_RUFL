@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manuscript.aux
+The style file: GBT7714-2005NLang.bst
+A level-1 auxiliary file: chapters/thanks.aux
+A level-1 auxiliary file: chapters/abstract.aux
+A level-1 auxiliary file: chapters/englishabstract.aux
+A level-1 auxiliary file: chapters/chapter01.aux
+A level-1 auxiliary file: chapters/chapter02.aux
+A level-1 auxiliary file: chapters/chapter03.aux
+A level-1 auxiliary file: chapters/chapter04.aux
+A level-1 auxiliary file: chapters/chapter05.aux
+A level-1 auxiliary file: chapters/chapter07.aux
+A level-1 auxiliary file: chapters/mresume.aux
+A level-1 auxiliary file: chapters/statement.aux
+A level-1 auxiliary file: chapters/dataset.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: reference/ref.bib
+You've used 97 entries,
+            3107 wiz_defined-function locations,
+            1294 strings with 20819 characters,
+and the built_in function-call counts, 153253 in all, are:
+= -- 16539
+> -- 314
+< -- 743
++ -- 12906
+- -- 1075
+* -- 4670
+:= -- 16787
+add.period$ -- 0
+call.type$ -- 97
+change.case$ -- 434
+chr.to.int$ -- 0
+cite$ -- 97
+duplicate$ -- 21497
+empty$ -- 6123
+format.name$ -- 868
+if$ -- 40542
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 0
+newline$ -- 318
+num.names$ -- 103
+pop$ -- 2137
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1516
+stack$ -- 0
+substring$ -- 18034
+swap$ -- 4795
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2055
+width$ -- 99
+write$ -- 1406

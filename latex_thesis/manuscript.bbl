@@ -1,0 +1,700 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{唐仁敏}
+\bibauthor{唐仁敏}\@.
+  \bibtitle{推动“十四五”时期现代物流高质量发展}\bibmark{[J]}\@.
+  \bibjournal{中国经贸导刊}\@, \bibyear{2023}\@,
+  \bibvolume{1039}\thinspace{}\textnormal{:
+  }\bibpages{20\thinspace{}\textnormal{--}\thinspace{}28}\@.
+
+\bibitem{王微}
+\bibauthor{王微}\@.
+  \bibtitle{在现代化新征程中更好地发挥现代物流的循环畅通作用}\bibmark{[J]}\@.
+  \bibjournal{中国远洋海运}\@, \bibyear{2023}\thinspace{}\textnormal{:
+  }\bibpages{24\thinspace{}\textnormal{--}\thinspace{}26+8}\@.
+
+\bibitem{盐田港}
+\bibauthor{中国航务周刊编辑部}\@.
+  \bibtitle{深圳港口拥堵严重，部分船公司宣布跳港}\bibmark{[J]}\@.
+  \bibjournal{中国航务周刊}\@, \bibyear{2021}\thinspace{}\textnormal{:
+  }\bibpages{20}\@.
+
+\bibitem{Snyder2005}
+\bibauthor{SNYDER L~V\@, DASKIN M~S}\@. \bibtitle{Reliability Models for
+  Facility Location: The Expected Failure Cost Case}\bibmark{[J]}\@.
+  \bibjournal{Transportation Science}\@, \bibyear{2005}\@,
+  \bibvolume{39}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{400\thinspace{}\textnormal{--}\thinspace{}416}\@.
+
+\bibitem{BermanReliability}
+\bibauthor{BERMAN O\@, KRASS D\@, MENEZES M~B~C}\@. \bibtitle{Facility
+  Reliability Issues in Networkp-Median Problems: Strategic Centralization and
+  Co-Location Effects}\bibmark{[J]}\@. \bibjournal{Operations Research}\@,
+  \bibyear{2007}\@, \bibvolume{55}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{332\thinspace{}\textnormal{--}\thinspace{}350}\@.
+
+\bibitem{BermanIncompleteInformation}
+\bibauthor{BERMAN O\@, KRASS D\@, MENEZES M~B~C}\@. \bibtitle{Locating
+  Facilities in the Presence of Disruptions and Incomplete
+  Information}\bibmark{[J]}\@. \bibjournal{Decision Sciences}\@,
+  \bibyear{2009}\@, \bibvolume{40}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{845\thinspace{}\textnormal{--}\thinspace{}868}\@.
+
+\bibitem{Daskin书}
+\bibauthor{DASKIN M~S}\@. \bibbooktitle{Network and Discrete Location : Models,
+  Algorithms, and Applications}\bibmark{[M]}\@. \bibaddress{Somerset,UNITED
+  STATES}\thinspace{}\textnormal{: }\bibpublisher{John Wiley \& Sons,
+  Incorporated}\@, \bibyear{2013}\@.
+
+\bibitem{董鹏}
+\bibauthor{董鹏}\@.
+  \bibtitle{基于信息失效情景的区域物流网络可靠性选址问题研究}\bibmark{[D]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibschool{北京交通大学}\@, \bibyear{2018}\@.
+
+\bibitem{weber}
+\bibauthor{WEBER A}\@. \bibbooktitle{Ueber den Standort der
+  Industrien}\bibmark{[M]}\@. \bibaddress{Tübingen,
+  Germany}\thinspace{}\textnormal{: }\bibpublisher{Mohr}\@, \bibyear{1922}\@.
+
+\bibitem{maxshen}
+\bibauthor{MAK H-Y\@, SHEN Z-J~M}\@. \bibtitle{Integrated Modeling for Location
+  Analysis}\bibmark{[J]}\@. \bibjournal{Foundations and Trends® in Technology,
+  Information and Operations Management}\@, \bibyear{2016}\@,
+  \bibvolume{9}\bibnumber{(1–2)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}152}\@.
+
+\bibitem{周愉峰综述}
+\bibauthor{周愉峰}\@.
+  \bibtitle{考虑失灵风险的可靠性设施选址问题综述}\bibmark{[J]}\@.
+  \bibjournal{重庆工商大学学报(自然科学版)}\@, \bibyear{2016}\@,
+  \bibvolume{33}\bibnumber{(02)}\thinspace{}\textnormal{:
+  }\bibpages{58\thinspace{}\textnormal{--}\thinspace{}67}\@.
+
+\bibitem{rpmp}
+\bibauthor{ALBAREDA-SAMBOLA M\@, HINOJOSA Y\@, PUERTO J}\@. \bibtitle{The
+  reliable p-median problem with at-facility service}\bibmark{[J]}\@.
+  \bibjournal{European Journal of Operational Research}\@, \bibyear{2015}\@,
+  \bibvolume{245}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{656\thinspace{}\textnormal{--}\thinspace{}666}\@.
+
+\bibitem{lim}
+\bibauthor{LIM M\@, DASKIN M~S\@, BASSAMBOO A, et~al}\@. \bibtitle{A facility
+  reliability problem: Formulation, properties, and algorithm}\bibmark{[J]}\@.
+  \bibjournal{Naval Research Logistics (NRL)}\@, \bibyear{2010}\@,
+  \bibvolume{57}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{58\thinspace{}\textnormal{--}\thinspace{}70}\@.
+
+\bibitem{李汉卿}
+\bibauthor{李汉卿}\@.
+  \bibtitle{中断风险下的供应链选址策略改进}\bibmark{[D]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibschool{北京交通大学}\@, \bibyear{2014}\@.
+
+\bibitem{Cui2010}
+\bibauthor{CUI T\@, OUYANG Y\@, SHEN Z-J~M}\@. \bibtitle{Reliable Facility
+  Location Design Under the Risk of Disruptions}\bibmark{[J]}\@.
+  \bibjournal{Operations Research}\@, \bibyear{2010}\@,
+  \bibvolume{58}\bibnumber{(4-part-1)}\thinspace{}\textnormal{:
+  }\bibpages{998\thinspace{}\textnormal{--}\thinspace{}1011}\@.
+
+\bibitem{Shen2011}
+\bibauthor{SHEN Z-J~M\@, ZHAN R~L\@, ZHANG J}\@. \bibtitle{The Reliable
+  Facility Location Problem: Formulations, Heuristics, and Approximation
+  Algorithms}\bibmark{[J]}\@. \bibjournal{INFORMS Journal on Computing}\@,
+  \bibyear{2011}\@, \bibvolume{23}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{470\thinspace{}\textnormal{--}\thinspace{}482}\@.
+
+\bibitem{王艳敏}
+\bibauthor{王艳敏}\@.
+  \bibtitle{基于可靠性的供应链设施选址问题的优化模型}\bibmark{[J]}\@.
+  \bibjournal{科学技术与工程}\@, \bibyear{2012}\@,
+  \bibvolume{12}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{2517\thinspace{}\textnormal{--}\thinspace{}2520}\@.
+
+\bibitem{Aboolian}
+\bibauthor{ABOOLIAN R\@, CUI T\@, SHEN Z-J~M}\@. \bibtitle{An Efficient
+  Approach for Solving Reliable Facility Location Models}\bibmark{[J]}\@.
+  \bibjournal{INFORMS Journal on Computing}\@, \bibyear{2013}\@,
+  \bibvolume{25}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{720\thinspace{}\textnormal{--}\thinspace{}729}\@.
+
+\bibitem{yun2015}
+\bibauthor{YUN L\@, QIN Y\@, FAN H, et~al}\@. \bibtitle{A reliability model for
+  facility location design under imperfect information}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part B: Methodological}\@,
+  \bibyear{2015}\@, \bibvolume{81}\thinspace{}\textnormal{:
+  }\bibpages{596\thinspace{}\textnormal{--}\thinspace{}615}\@.
+
+\bibitem{yun2017}
+\bibauthor{YUN L\@, WANG X\@, FAN H, et~al}\@. \bibtitle{A reliable facility
+  location design model with site-dependent disruption in the imperfect
+  information context}\bibmark{[J]}\@. \bibjournal{PLoS One}\@,
+  \bibyear{2017}\@, \bibvolume{12}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{e0177104}\@.
+
+\bibitem{YUN2020}
+\bibauthor{YUN L\@, WANG X\@, FAN H, et~al}\@. \bibtitle{Reliable facility
+  location design with round-trip transportation under imperfect information
+  Part I: A discrete model}\bibmark{[J]}\@. \bibjournal{Transportation Research
+  Part E: Logistics and Transportation Review}\@, \bibyear{2020}\@,
+  \bibvolume{133}\thinspace{}\textnormal{: }\bibpages{101825}\@.
+
+\bibitem{qingwei}
+\bibauthor{LI Q\@, ZENG B\@, SAVACHKIN A}\@. \bibtitle{Reliable facility
+  location design under disruptions}\bibmark{[J]}\@. \bibjournal{Computers \&
+  Operations Research}\@, \bibyear{2013}\@,
+  \bibvolume{40}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{901\thinspace{}\textnormal{--}\thinspace{}909}\@.
+
+\bibitem{qingwei2}
+\bibauthor{LI Q\@, SAVACHKIN A}\@. \bibtitle{A heuristic approach to the design
+  of fortified distribution networks}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part E: Logistics and Transportation
+  Review}\@, \bibyear{2013}\@, \bibvolume{50}\thinspace{}\textnormal{:
+  }\bibpages{138\thinspace{}\textnormal{--}\thinspace{}148}\@.
+
+\bibitem{qingwei3}
+\bibauthor{LI Q\@, SAVACHKIN A}\@. \bibtitle{A Fast Tabu Search Algorithm for
+  the Reliable P-Median Problem}\bibmark{[C]} //\thinspace{}\bibeditor{GAO D\@,
+  RUAN N\@, XING W}\@. \bibbooktitle{Springer Proceedings in Mathematics \&
+  Statistics\@, Vol~95\thinspace{}\textnormal{: }ADVANCES IN GLOBAL
+  OPTIMIZATION}\@. \bibaddress{233 SPRING STREET, NEW YORK, NY 10013, UNITED
+  STATES}\thinspace{}\textnormal{: }\bibpublisher{SPRINGER}\@,
+  \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{417\thinspace{}\textnormal{--}\thinspace{}424}\@.
+
+\bibitem{risk_averse1}
+\bibauthor{YU G\@, HASKELL W~B\@, LIU Y}\@. \bibtitle{Resilient facility
+  location against the risk of disruptions}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part B: Methodological}\@,
+  \bibyear{2017}\@, \bibvolume{104}\thinspace{}\textnormal{:
+  }\bibpages{82\thinspace{}\textnormal{--}\thinspace{}105}\@.
+
+\bibitem{risk_averse2}
+\bibauthor{YU G\@, ZHANG J}\@. \bibtitle{Multi-dual decomposition solution for
+  risk-averse facility location problem}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part E: Logistics and Transportation
+  Review}\@, \bibyear{2018}\@, \bibvolume{116}\thinspace{}\textnormal{:
+  }\bibpages{70\thinspace{}\textnormal{--}\thinspace{}89}\@.
+
+\bibitem{lu_correlated}
+\bibauthor{LU M~S\@, RAN L\@, SHEN Z~J~M}\@. \bibtitle{Reliable Facility
+  Location Design Under Uncertain Correlated Disruptions}\bibmark{[J]}\@.
+  \bibjournal{M\&Som-Manufacturing \& Service Operations Management}\@,
+  \bibyear{2015}\@, \bibvolume{17}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{445\thinspace{}\textnormal{--}\thinspace{}455}\@.
+
+\bibitem{Du}
+\bibauthor{DU B\@, ZHOU H\@, LEUS R}\@. \bibtitle{A two-stage robust model for
+  a reliable p-center facility location problem}\bibmark{[J]}\@.
+  \bibjournal{Applied Mathematical Modelling}\@, \bibyear{2020}\@,
+  \bibvolume{77}\thinspace{}\textnormal{:
+  }\bibpages{99\thinspace{}\textnormal{--}\thinspace{}114}\@.
+
+\bibitem{peng}
+\bibauthor{PENG P\@, SNYDER L~V\@, LIM A, et~al}\@. \bibtitle{Reliable
+  logistics networks design with facility disruptions}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part B: Methodological}\@,
+  \bibyear{2011}\@, \bibvolume{45}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1190\thinspace{}\textnormal{--}\thinspace{}1211}\@.
+
+\bibitem{Yongzhen}
+\bibauthor{LI Y\@, LI X\@, SHU J, et~al}\@. \bibtitle{A General Model and
+  Efficient Algorithms for Reliable Facility Location Problem Under Uncertain
+  Disruptions}\bibmark{[J]}\@. \bibjournal{INFORMS Journal on Computing}\@,
+  \bibyear{2022}\@, \bibvolume{34}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{407\thinspace{}\textnormal{--}\thinspace{}426}\@.
+
+\bibitem{an2014reliable}
+\bibauthor{AN Y\@, ZENG B\@, ZHANG Y, et~al}\@. \bibtitle{Reliable p-median
+  facility location problem: two-stage robust models and
+  algorithms}\bibmark{[J]}\@. \bibjournal{Transportation Research Part B:
+  Methodological}\@, \bibyear{2014}\@, \bibvolume{64}\thinspace{}\textnormal{:
+  }\bibpages{54\thinspace{}\textnormal{--}\thinspace{}72}\@.
+
+\bibitem{Lixiapeng2010}
+\bibauthor{LI X\@, OUYANG Y}\@. \bibtitle{A continuum approximation approach to
+  reliable facility location design under correlated probabilistic
+  disruptions}\bibmark{[J]}\@. \bibjournal{Transportation Research Part B:
+  Methodological}\@, \bibyear{2010}\@,
+  \bibvolume{44}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{535\thinspace{}\textnormal{--}\thinspace{}548}\@.
+
+\bibitem{yun2019}
+\bibauthor{YUN L\@, FAN H\@, LI X}\@. \bibtitle{Reliable facility location
+  design with round-trip transportation under imperfect information part II: A
+  continuous model}\bibmark{[J]}\@. \bibjournal{Transportation Research Part B:
+  Methodological}\@, \bibyear{2019}\@, \bibvolume{124}\thinspace{}\textnormal{:
+  }\bibpages{44\thinspace{}\textnormal{--}\thinspace{}59}\@.
+
+\bibitem{fan}
+\bibauthor{FAN H~Q\@, YUN L~F\@, LI X~P}\@. \bibtitle{A linear-time
+  crystal-growth algorithm for discretization of continuum
+  approximation}\bibmark{[J]}\@. \bibjournal{Transportation Research Part
+  E-Logistics and Transportation Review}\@, \bibyear{2022}\@,
+  \bibvolume{161}\thinspace{}\textnormal{: }\bibpages{26}\@.
+
+\bibitem{jiang}
+\bibauthor{JIANG Z\@, OUYANG Y}\@. \bibtitle{Reliable location of first
+  responder stations for cooperative response to disasters}\bibmark{[J]}\@.
+  \bibjournal{Transportation Research Part B: Methodological}\@,
+  \bibyear{2021}\@, \bibvolume{149}\thinspace{}\textnormal{:
+  }\bibpages{20\thinspace{}\textnormal{--}\thinspace{}32}\@.
+
+\bibitem{LiXP2013}
+\bibauthor{LI X~P\@, OUYANG Y~F\@, PENG F}\@. \bibtitle{A supporting station
+  model for reliable infrastructure location design under interdependent
+  disruptions}\bibmark{[J]}\@. \bibjournal{Transportation Research Part
+  E-Logistics and Transportation Review}\@, \bibyear{2013}\@,
+  \bibvolume{60}\thinspace{}\textnormal{:
+  }\bibpages{80\thinspace{}\textnormal{--}\thinspace{}93}\@.
+
+\bibitem{BermanDist}
+\bibauthor{BERMAN O\@, DREZNER Z\@, WESOLOWSKY G~O}\@. \bibtitle{Locating
+  service facilities whose reliability is distance dependent}\bibmark{[J]}\@.
+  \bibjournal{Computers \& Operations Research}\@, \bibyear{2003}\@,
+  \bibvolume{30}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{1683\thinspace{}\textnormal{--}\thinspace{}1695}\@.
+
+\bibitem{cheng}
+\bibauthor{CHENG C\@, ADULYASAK Y\@, ROUSSEAU L-M}\@. \bibtitle{Robust facility
+  location under demand uncertainty and facility disruptions}\bibmark{[J]}\@.
+  \bibjournal{Omega}\@, \bibyear{2021}\@,
+  \bibvolume{103}\thinspace{}\textnormal{: }\bibpages{102429}\@.
+
+\bibitem{lim2013facility}
+\bibauthor{LIM M~K\@, BASSAMBOO A\@, CHOPRA S, et~al}\@. \bibtitle{Facility
+  location decisions with random disruptions and imperfect
+  estimation}\bibmark{[J]}\@. \bibjournal{Manufacturing \& Service Operations
+  Management}\@, \bibyear{2013}\@,
+  \bibvolume{15}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{239\thinspace{}\textnormal{--}\thinspace{}249}\@.
+
+\bibitem{Snyder2006综述}
+\bibauthor{SNYDER L~V}\@. \bibtitle{Facility location under uncertainty: a
+  review}\bibmark{[J]}\@. \bibjournal{IIE Transactions}\@, \bibyear{2006}\@,
+  \bibvolume{38}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{547\thinspace{}\textnormal{--}\thinspace{}564}\@.
+
+\bibitem{SnyderReview}
+\bibauthor{SNYDER L~V\@, ATAN Z\@, PENG P, et~al}\@. \bibtitle{OR/MS models for
+  supply chain disruptions: a review}\bibmark{[J]}\@. \bibjournal{IIE
+  Transactions}\@, \bibyear{2015}\@,
+  \bibvolume{48}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{89\thinspace{}\textnormal{--}\thinspace{}109}\@.
+
+\bibitem{Govindan}
+\bibauthor{GOVINDAN K\@, FATTAHI M\@, KEYVANSHOKOOH E}\@. \bibtitle{Supply
+  chain network design under uncertainty: A comprehensive review and future
+  research directions}\bibmark{[J]}\@. \bibjournal{European Journal of
+  Operational Research}\@, \bibyear{2017}\@,
+  \bibvolume{263}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{108\thinspace{}\textnormal{--}\thinspace{}141}\@.
+
+\bibitem{fischetti}
+\bibauthor{FISCHETTI M\@, LJUBI{\'C} I\@, SINNL M}\@. \bibtitle{Redesigning
+  Benders decomposition for large-scale facility location}\bibmark{[J]}\@.
+  \bibjournal{Management Science}\@, \bibyear{2017}\@,
+  \bibvolume{63}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{2146\thinspace{}\textnormal{--}\thinspace{}2162}\@.
+
+\bibitem{ortiz2019exact}
+\bibauthor{ORTIZ-ASTORQUIZA C\@, CONTRERAS I\@, LAPORTE G}\@. \bibtitle{An
+  exact algorithm for multilevel uncapacitated facility
+  location}\bibmark{[J]}\@. \bibjournal{Transportation Science}\@,
+  \bibyear{2019}\@, \bibvolume{53}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{1085\thinspace{}\textnormal{--}\thinspace{}1106}\@.
+
+\bibitem{wentges1996accelerating}
+\bibauthor{WENTGES P}\@. \bibtitle{Accelerating Benders' decomposition for the
+  capacitated facility location problem}\bibmark{[J]}\@.
+  \bibjournal{Mathematical Methods of Operations Research}\@, \bibyear{1996}\@,
+  \bibvolume{44}\thinspace{}\textnormal{:
+  }\bibpages{267\thinspace{}\textnormal{--}\thinspace{}290}\@.
+
+\bibitem{MohammadBenders}
+\bibauthor{ROHANINEJAD M\@, SAHRAEIAN R\@, TAVAKKOLI-MOGHADDAM R}\@.
+  \bibtitle{An accelerated Benders decomposition algorithm for reliable
+  facility location problems in multi-echelon networks}\bibmark{[J]}\@.
+  \bibjournal{Computers \& Industrial Engineering}\@, \bibyear{2018}\@,
+  \bibvolume{124}\thinspace{}\textnormal{:
+  }\bibpages{523\thinspace{}\textnormal{--}\thinspace{}534}\@.
+
+\bibitem{Azad}
+\bibauthor{AZAD N\@, HASSINI E}\@. \bibtitle{A Benders Decomposition Method for
+  Designing Reliable Supply Chain Networks Accounting for Multimitigation
+  Strategies and Demand Losses}\bibmark{[J]}\@. \bibjournal{Transportation
+  Science}\@, \bibyear{2019}\@,
+  \bibvolume{53}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{1287\thinspace{}\textnormal{--}\thinspace{}1312}\@.
+
+\bibitem{Pirniya}
+\bibauthor{PIRNIYA G}\@. \bibtitle{Reliable Location Allocation Routing Design
+  under Disruption: An Improved Column Generation Decomposition
+  Approach}\bibmark{[D]}\@. \bibaddress{Montreal, Quebec,
+  Canada}\thinspace{}\textnormal{: }\bibschool{Concordia University}\@,
+  \bibyear{2017}\@.
+
+\bibitem{孙小玲}
+\bibauthor{孙小玲}\@. \bibbooktitle{整数规划}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{科学出版社}\@, \bibyear{2010}\@.
+
+\bibitem{Hearn2009}
+\bibauthor{HEARN D~W\@, LOWE T~J}\@. \bibtitle{Lagrangian duality:
+  BASICS}\bibmark{[M]} //\thinspace{}\bibeditor{FLOUDAS C~A\@, PARDALOS P~M}\@.
+  \bibbooktitle{Encyclopedia of Optimization}\@. \bibaddress{Boston,
+  MA}\thinspace{}\textnormal{: }\bibpublisher{Springer US}\@,
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{1805\thinspace{}\textnormal{--}\thinspace{}1813}\@.
+
+\bibitem{Geoffrion1974}
+\bibauthor{GEOFFRION A~M}\@. \bibtitle{Lagrangean relaxation for integer
+  programming}\bibmark{[M]} //\thinspace{}\bibeditor{BALINSKI M~L}\@.
+  \bibbooktitle{Approaches to Integer Programming}\@. \bibaddress{Berlin,
+  Heidelberg}\thinspace{}\textnormal{: }\bibpublisher{Springer Berlin
+  Heidelberg}\@, \bibyear{1974}\thinspace{}\textnormal{:
+  }\bibpages{82\thinspace{}\textnormal{--}\thinspace{}114}\@.
+
+\bibitem{Cornuejols}
+\bibauthor{CORNUEJOLS G\@, FISHER M~L\@, NEMHAUSER G~L}\@.
+  \bibtitle{Exceptional Paper---Location of Bank Accounts to Optimize Float: An
+  Analytic Study of Exact and Approximate Algorithms}\bibmark{[J]}\@.
+  \bibjournal{Management Science}\@, \bibyear{1977}\@,
+  \bibvolume{23}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{789\thinspace{}\textnormal{--}\thinspace{}810}\@.
+
+\bibitem{xie}
+\bibauthor{XIE W\@, OUYANG Y\@, WONG S~C}\@. \bibtitle{Reliable
+  Location-Routing Design Under Probabilistic Facility
+  Disruptions}\bibmark{[J]}\@. \bibjournal{Transportation Science}\@,
+  \bibyear{2016}\@, \bibvolume{50}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{1128\thinspace{}\textnormal{--}\thinspace{}1138}\@.
+
+\bibitem{wangjiguang}
+\bibauthor{WANG J\@, SU K\@, WU Y}\@. \bibtitle{The Reliable Facility Location
+  Problem Under Random Disruptions}\bibmark{[J]}\@. \bibjournal{Wireless
+  Personal Communications}\@, \bibyear{2018}\@,
+  \bibvolume{102}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{2483\thinspace{}\textnormal{--}\thinspace{}2497}\@.
+
+\bibitem{Fisher2004}
+\bibauthor{FISHER M~L}\@. \bibtitle{The Lagrangian Relaxation Method for
+  Solving Integer Programming Problems}\bibmark{[J]}\@. \bibjournal{Management
+  Science}\@, \bibyear{2004}\@,
+  \bibvolume{50}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{1861\thinspace{}\textnormal{--}\thinspace{}1871}\@.
+
+\bibitem{Rahmani}
+\bibauthor{RAHMANI A\@, MIRHASSANI S~A}\@. \bibtitle{A hybrid Firefly-Genetic
+  Algorithm for the capacitated facility location problem}\bibmark{[J]}\@.
+  \bibjournal{Information Sciences}\@, \bibyear{2014}\@,
+  \bibvolume{283}\thinspace{}\textnormal{:
+  }\bibpages{70\thinspace{}\textnormal{--}\thinspace{}78}\@.
+
+\bibitem{rainns}
+\bibauthor{RAINWATER C\@, GEUNES J\@, ROMEIJN H~E}\@. \bibtitle{A facility
+  neighborhood search heuristic for capacitated facility location with
+  single-source constraints and flexible demand}\bibmark{[J]}\@.
+  \bibjournal{Journal of Heuristics}\@, \bibyear{2011}\@,
+  \bibvolume{18}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{297\thinspace{}\textnormal{--}\thinspace{}315}\@.
+
+\bibitem{ts}
+\bibauthor{SILVA M~R\@, CUNHA C~B}\@. \bibtitle{A tabu search heuristic for the
+  uncapacitated single allocation p-hub maximal covering
+  problem}\bibmark{[J]}\@. \bibjournal{European Journal of Operational
+  Research}\@, \bibyear{2017}\@,
+  \bibvolume{262}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{954\thinspace{}\textnormal{--}\thinspace{}965}\@.
+
+\bibitem{vns_ts}
+\bibauthor{RAHDAR S\@, GHANBARI R\@, GHORBANI-MOGHADAM K}\@. \bibtitle{Tabu
+  search and variable neighborhood search algorithms for solving interval bus
+  terminal location problem}\bibmark{[J]}\@. \bibjournal{Applied Soft
+  Computing}\@, \bibyear{2022}\thinspace{}\textnormal{: }\bibpages{116}\@.
+
+\bibitem{Afify}
+\bibauthor{AFIFY B\@, RAY S\@, SOEANU A, et~al}\@. \bibtitle{Evolutionary
+  learning algorithm for reliable facility location under
+  disruption}\bibmark{[J]}\@. \bibjournal{Expert Systems with Applications}\@,
+  \bibyear{2019}\@, \bibvolume{115}\thinspace{}\textnormal{:
+  }\bibpages{223\thinspace{}\textnormal{--}\thinspace{}244}\@.
+
+\bibitem{窦志武}
+\bibauthor{窦志武\@, 邵亚楠\@, 原智慧, 等}\@.
+  \bibtitle{物流节点选址研究综述}\bibmark{[J]}\@.
+  \bibjournal{物流工程与管理}\@, \bibyear{2020}\@,
+  \bibvolume{42}\bibnumber{(07)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
+
+\bibitem{层次分析}
+\bibauthor{王柯}\@.
+  \bibtitle{基于层次分析法的亚龙商贸物流园区选址研究}\bibmark{[D]}\@.
+  \bibaddress{昆明}\thinspace{}\textnormal{:
+  }\bibschool{昆明理工大学}\@, \bibyear{2017}\@.
+
+\bibitem{重心法}
+\bibauthor{李楠}\@.
+  \bibtitle{地下物流网络的节点选址和线路优化}\bibmark{[D]}\@.
+  \bibaddress{武汉}\thinspace{}\textnormal{: }\bibschool{江汉大学}\@,
+  \bibyear{2020}\@.
+
+\bibitem{数据包络分析}
+\bibauthor{王项\@, 刘刚}\@.
+  \bibtitle{基于数据包络分析的区域物流绩效分析——以全国性物流节点城市所在的省市为例}\bibmark{[J]}\@.
+  \bibjournal{物流工程与管理}\@, \bibyear{2015}\@,
+  \bibvolume{37}\thinspace{}\textnormal{:
+  }\bibpages{78\thinspace{}\textnormal{--}\thinspace{}81}\@.
+
+\bibitem{张莹}
+\bibauthor{张莹}\@.
+  \bibtitle{考虑中断风险的供应链优化模型和算法研究}\bibmark{[D]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{: }\bibschool{清华大学}\@,
+  \bibyear{2016}\@.
+
+\bibitem{汤罗浩}
+\bibauthor{汤罗浩}\@.
+  \bibtitle{考虑设施失效的选址问题、模型与算法}\bibmark{[D]}\@.
+  \bibaddress{长沙}\thinspace{}\textnormal{:
+  }\bibschool{国防科学技术大学}\@, \bibyear{2016}\@.
+
+\bibitem{王继光}
+\bibauthor{王继光}\@.
+  \bibtitle{中断情境下供应链设施选址优化研究}\bibmark{[D]}\@.
+  \bibaddress{太原}\thinspace{}\textnormal{: }\bibschool{山西大学}\@,
+  \bibyear{2015}\@.
+
+\bibitem{周浩}
+\bibauthor{周浩}\@.
+  \bibtitle{考虑线状需求的可靠性物流节点选址研究}\bibmark{[D]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibschool{北京交通大学}\@, \bibyear{2020}\@.
+
+\bibitem{朱江华}
+\bibauthor{朱江华\@, 崔娜\@, 朱庆, 等}\@.
+  \bibtitle{服务失效情况下可靠的物流园区选址模型}\bibmark{[J]}\@.
+  \bibjournal{济南大学学报(自然科学版)}\@, \bibyear{2019}\@,
+  \bibvolume{33}\bibnumber{(02)}\thinspace{}\textnormal{:
+  }\bibpages{101\thinspace{}\textnormal{--}\thinspace{}106+114}\@.
+
+\bibitem{颜高民}
+\bibauthor{颜高民}\@.
+  \bibtitle{突发事件下应急物流可靠路径的搜索}\bibmark{[D]}\@.
+  \bibaddress{武汉}\thinspace{}\textnormal{:
+  }\bibschool{华中科技大学}\@, \bibyear{2010}\@.
+
+\bibitem{李锐}
+\bibauthor{李锐\@, 李晓会\@, 陈鑫}\@.
+  \bibtitle{可靠性绿色物流配送选址-路径问题研究}\bibmark{[J]}\@.
+  \bibjournal{计算机工程与应用}\@, \bibyear{2020}\@,
+  \bibvolume{56}\bibnumber{(23)}\thinspace{}\textnormal{:
+  }\bibpages{237\thinspace{}\textnormal{--}\thinspace{}244}\@.
+
+\bibitem{任慧}
+\bibauthor{任慧\@, 王东宇}\@.
+  \bibtitle{考虑多源协同供应网可靠选址路径集成优化问题}\bibmark{[J]}\@.
+  \bibjournal{运筹与管理}\@, \bibyear{2023}\@,
+  \bibvolume{32}\bibnumber{(02)}\thinspace{}\textnormal{:
+  }\bibpages{132\thinspace{}\textnormal{--}\thinspace{}138}\@.
+
+\bibitem{石褚巍}
+\bibauthor{石褚巍\@, 马昌喜\@, 麻存瑞}\@.
+  \bibtitle{基于两阶段鲁棒优化的可靠性物流网络设计}\bibmark{[J]}\@.
+  \bibjournal{交通运输系统工程与信息}\@,
+  \bibyear{2023}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}20}\@.
+
+\bibitem{张鹏阁}
+\bibauthor{张鹏阁}\@.
+  \bibtitle{考虑配送中心中断的应急物流选址-路径优化研究}\bibmark{[D]}\@.
+  \bibaddress{郑州}\thinspace{}\textnormal{: }\bibschool{郑州大学}\@,
+  \bibyear{2021}\@.
+
+\bibitem{孙晓飞}
+\bibauthor{孙晓飞\@, 张强}\@.
+  \bibtitle{物流配送中心选址的多目标优化模型}\bibmark{[C]}
+  //\thinspace{}\bibeditor{中国运筹学会企业运筹学分会}\@.
+  \bibbooktitle{中国企业运筹学[2010(1)]}\@.
+  \bibaddress{吉林}\thinspace{}\textnormal{:
+  }\bibpublisher{电子科技大学出版社}\@,
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{176\thinspace{}\textnormal{--}\thinspace{}182}\@.
+
+\bibitem{姚琦}
+\bibauthor{姚琦}\@.
+  \bibtitle{基于可靠性的生鲜农产品配送中心选址研究}\bibmark{[D]}\@.
+  \bibaddress{大连}\thinspace{}\textnormal{:
+  }\bibschool{大连交通大学}\@, \bibyear{2012}\@.
+
+\bibitem{周愉峰应急}
+\bibauthor{周愉峰\@, 马祖军\@, 王恪铭}\@.
+  \bibtitle{应急物资储备库的可靠性P-中位选址模型}\bibmark{[J]}\@.
+  \bibjournal{管理评论}\@, \bibyear{2015}\@,
+  \bibvolume{27}\bibnumber{(05)}\thinspace{}\textnormal{:
+  }\bibpages{198\thinspace{}\textnormal{--}\thinspace{}208}\@.
+
+\bibitem{李政祥1}
+\bibauthor{李政祥}\@.
+  \bibtitle{基于可靠性的应急物流多目标选址问题模型研究}\bibmark{[J]}\@.
+  \bibjournal{商}\@, \bibyear{2016}\bibnumber{(30)}\thinspace{}\textnormal{:
+  }\bibpages{262}\@.
+
+\bibitem{李政祥2}
+\bibauthor{李政祥}\@.
+  \bibtitle{考虑设施中断情景的可靠性应急物流网络优化设计研究}\bibmark{[D]}\@.
+  \bibaddress{重庆}\thinspace{}\textnormal{:
+  }\bibschool{重庆工商大学}\@, \bibyear{2017}\@.
+
+\bibitem{朱建明}
+\bibauthor{朱建明}\@.
+  \bibtitle{基于损毁情景的可靠连通应急设施选址问题}\bibmark{[J]}\@.
+  \bibjournal{电子科技大学学报(社科版)}\@, \bibyear{2012}\@,
+  \bibvolume{14}\bibnumber{(03)}\thinspace{}\textnormal{:
+  }\bibpages{44\thinspace{}\textnormal{--}\thinspace{}48}\@.
+
+\bibitem{于冬梅}
+\bibauthor{于冬梅\@, 高雷阜\@, 赵世杰}\@.
+  \bibtitle{中断情境下可靠性应急设施选址-分配多目标优化模型}\bibmark{[J]}\@.
+  \bibjournal{控制与决策}\@, \bibyear{2020}\@,
+  \bibvolume{35}\bibnumber{(06)}\thinspace{}\textnormal{:
+  }\bibpages{1415\thinspace{}\textnormal{--}\thinspace{}1420}\@.
+
+\bibitem{王子墨}
+\bibauthor{王子墨}\@.
+  \bibtitle{基于可靠性的设施选址问题研究}\bibmark{[D]}\@.
+  \bibaddress{青岛}\thinspace{}\textnormal{:
+  }\bibschool{山东科技大学}\@, \bibyear{2018}\@.
+
+\bibitem{vigo}
+\bibauthor{TOTH P\@, VIGO D}\@. \bibtitle{Models, relaxations and exact
+  approaches for the capacitated vehicle routing problem}\bibmark{[J]}\@.
+  \bibjournal{Discrete Applied Mathematics}\@, \bibyear{2002}\@,
+  \bibvolume{123}\bibnumber{(1-3)}\thinspace{}\textnormal{:
+  }\bibpages{487\thinspace{}\textnormal{--}\thinspace{}512}\@.
+
+\bibitem{karp}
+\bibauthor{KARP R~M}\@. \bibtitle{Reducibility among Combinatorial
+  Problems}\bibmark{[M]} //\thinspace{}\bibeditor{MILLER R~E\@, THATCHER J~W\@,
+  BOHLINGER J~D}\@. \bibbooktitle{Complexity of Computer Computations:
+  Proceedings of a symposium on the Complexity of Computer Computations}\@.
+  \bibaddress{Boston, MA}\thinspace{}\textnormal{: }\bibpublisher{Springer
+  US}\@, \bibyear{1972}\thinspace{}\textnormal{:
+  }\bibpages{85\thinspace{}\textnormal{--}\thinspace{}103}\@.
+
+\bibitem{garey1979computers}
+\bibauthor{GAREY M\@, JOHNSON D}\@. \bibbooktitle{Mathematical Sciences
+  Series\thinspace{}\textnormal{: }Computers and Intractability: A Guide to the
+  Theory of NP-completeness}\bibmark{[M]}\@. \bibaddress{New York,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{Freeman}\@, \bibyear{1979}\@.
+
+\bibitem{pulse}
+\bibauthor{LOZANO L\@, DUQUE D\@, MEDAGLIA A~L}\@. \bibtitle{An Exact Algorithm
+  for the Elementary Shortest Path Problem with Resource
+  Constraints}\bibmark{[J]}\@. \bibjournal{Transportation Science}\@,
+  \bibyear{2016}\@, \bibvolume{50}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{348\thinspace{}\textnormal{--}\thinspace{}357}\@.
+
+\bibitem{Dror1994}
+\bibauthor{DROR M}\@. \bibtitle{Note on the Complexity of the Shortest Path
+  Models for Column Generation in VRPTW}\bibmark{[J]}\@. \bibjournal{Operations
+  Research}\@, \bibyear{1994}\@,
+  \bibvolume{42}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{977\thinspace{}\textnormal{--}\thinspace{}978}\@.
+
+\bibitem{ils}
+\bibauthor{LOUREN{\c{C}}O H~R\@, MARTIN O~C\@, ST{\"U}TZLE T}\@.
+  \bibtitle{Iterated Local Search: Framework and Applications}\bibmark{[M]}
+  //\thinspace{}\bibeditor{GENDREAU M\@, POTVIN J-Y}\@. \bibbooktitle{Handbook
+  of Metaheuristics}\@. \bibaddress{Boston, MA}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer US}\@, \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{363\thinspace{}\textnormal{--}\thinspace{}397}\@.
+
+\bibitem{Everett}
+\bibauthor{EVERETT H}\@. \bibtitle{Generalized Lagrange Multiplier Method for
+  Solving Problems of Optimum Allocation of Resources}\bibmark{[J]}\@.
+  \bibjournal{Operations Research}\@, \bibyear{1963}\@,
+  \bibvolume{11}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{399\thinspace{}\textnormal{--}\thinspace{}417}\@.
+
+\bibitem{Fisher1973}
+\bibauthor{FISHER M~L}\@. \bibtitle{Optimal Solution of Scheduling Problems
+  Using Lagrange Multipliers: Part I}\bibmark{[J]}\@. \bibjournal{Operations
+  Research}\@, \bibyear{1973}\@,
+  \bibvolume{21}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{1114\thinspace{}\textnormal{--}\thinspace{}1127}\@.
+
+\bibitem{温旭红}
+\bibauthor{温旭红}\@.
+  \bibtitle{铁路车流分配优化模型与拉格朗日松弛算法求解研究}\bibmark{[D]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibschool{北京交通大学}\@, \bibyear{2016}\@.
+
+\bibitem{label}
+\bibauthor{FEILLET D\@, DEJAX P\@, GENDREAU M, et~al}\@. \bibtitle{An exact
+  algorithm for the elementary shortest path problem with resource constraints:
+  Application to some vehicle routing problems}\bibmark{[J]}\@.
+  \bibjournal{Networks: An International Journal}\@, \bibyear{2004}\@,
+  \bibvolume{44}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{216\thinspace{}\textnormal{--}\thinspace{}229}\@.
+
+\bibitem{sa_lp}
+\bibauthor{SANTOSA B\@, KRESNA I~G N~A}\@. \bibtitle{Simulated Annealing to
+  Solve Single Stage Capacitated Warehouse Location Problem}\bibmark{[J]}\@.
+  \bibjournal{Procedia Manufacturing}\@, \bibyear{2015}\@,
+  \bibvolume{4}\thinspace{}\textnormal{:
+  }\bibpages{62\thinspace{}\textnormal{--}\thinspace{}70}\@.
+
+\bibitem{ts_lp}
+\bibauthor{MICHEL L\@, VAN~HENTENRYCK P}\@. \bibtitle{A simple tabu search for
+  warehouse location}\bibmark{[J]}\@. \bibjournal{European Journal of
+  Operational Research}\@, \bibyear{2004}\@,
+  \bibvolume{157}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{576\thinspace{}\textnormal{--}\thinspace{}591}\@.
+
+\bibitem{sa}
+\bibauthor{BO L\@, BISSAN G\@, JATIN N}\@. \bibtitle{Electric vehicle routing
+  with charging/discharging under time-variant electricity
+  prices}\bibmark{[J]}\@. \bibjournal{Transportation Research Part C}\@,
+  \bibyear{2021}\@, \bibvolume{130}\thinspace{}\textnormal{:
+  }\bibpages{103285}\@.
+
+\bibitem{vrpdst}
+\bibauthor{SCHNEIDER M}\@. \bibtitle{The vehicle-routing problem with time
+  windows and driver-specific times}\bibmark{[J]}\@. \bibjournal{European
+  Journal of Operational Research}\@, \bibyear{2016}\@,
+  \bibvolume{250}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{101\thinspace{}\textnormal{--}\thinspace{}119}\@.
+
+\bibitem{jepsen}
+\bibauthor{JEPSEN M\@, PETERSEN B\@, SPOORENDONK S}\@. \bibtitle{A
+  Branch-and-Cut Algorithm for the Elementary Shortest Path Prob-lem with
+  Resource Constraints}\bibmark{[J]}\@. \bibjournal{Cut and Column
+  Generation}\@, \bibyear{2008}\thinspace{}\textnormal{: }\bibpages{129}\@.
+
+\end{thebibliography}

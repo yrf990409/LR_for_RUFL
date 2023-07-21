@@ -1,0 +1,61 @@
+\hypersetup {hidelinks}
+\contentsline {chapter}{摘要}{v}{chapter*.4}%
+\contentsline {chapter}{ABSTRACT}{vii}{chapter*.5}%
+\contentsline {chapter}{\numberline {1\hspace {.3em}}引言}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景和意义}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}研究背景}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}研究意义}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}研究创新点}{4}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}研究路线}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}本章小结}{6}{section.1.3}%
+\contentsline {chapter}{\numberline {2\hspace {.3em}}文献综述}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}可靠选址理论综述}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}物流节点可靠选址理论综述}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}本章小结}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3\hspace {.3em}}考虑设施失效风险的物流网络选址模型构建}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}模型假设}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}问题描述和符号说明}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}模型构建}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}目标函数推导}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}数学模型}{18}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}模型线性化}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}模型性质}{20}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}NP-hard}{20}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}子问题：试错序列问题}{21}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}本章小结}{23}{section.3.6}%
+\contentsline {chapter}{\numberline {4\hspace {.3em}}基于迭代局部搜索改进的拉格朗日松弛算法设计}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}LR算法原理}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}算法设计}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}约束松弛}{30}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}下界获取}{30}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}上界获取}{35}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}乘子更新}{36}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}停止条件}{37}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}上界改进}{37}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}本章小结}{39}{section.4.3}%
+\contentsline {chapter}{\numberline {5\hspace {.3em}}数值实验设计及算法性能分析}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}实验设计}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}综合求解性能分析}{42}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}求解性能对比}{42}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}算例参数$\rho $的影响}{43}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}算例参数$R$的影响}{45}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}优化曲线}{46}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}下界求解性能分析}{47}{section.5.3}%
+\contentsline {section}{\numberline {5.4}上界求解性能分析}{49}{section.5.4}%
+\contentsline {section}{\numberline {5.5}乘子更新效果讨论}{51}{section.5.5}%
+\contentsline {section}{\numberline {5.6}线性化效果讨论}{52}{section.5.6}%
+\contentsline {section}{\numberline {5.7}算例结果及灵敏度分析}{55}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}结果展示}{55}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}参数$\rho $灵敏度分析}{57}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}参数$R$灵敏度分析}{58}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}本章小结}{59}{section.5.8}%
+\contentsline {chapter}{\numberline {6\hspace {.3em}}总结与展望}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}工作总结}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}研究展望}{62}{section.6.2}%
+\contentsline {chapter}{参考文献}{63}{chapter*.32}%
+\contentsline {chapter}{附录A}{69}{chapter*.33}%
+\contentsline {chapter}{附录B}{89}{chapter*.36}%
+\contentsline {chapter}{作者简历及攻读硕士学位期间取得的研究成果}{101}{chapter*.37}%
+\contentsline {chapter}{独创性声明}{103}{chapter*.38}%
+\contentsline {chapter}{学位论文数据集}{105}{chapter*.39}%
+\contentsfinish 

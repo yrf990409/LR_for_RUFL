@@ -1,0 +1,115 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[EnMaster]{BJTU-thesis}
+
+\usepackage{algpseudocode}
+\usepackage{fontspec}
+\usepackage{emptypage}
+\usepackage{mathptmx}
+\usepackage{bicaption}
+\usepackage{emptypage}
+\usepackage{pdfpages}
+\usepackage{mathpazo}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}   % 插入图片的宏包
+\usepackage{float}      % 设置图片浮动位置的宏包
+\usepackage{subfigure}  % 插入多图时用子图显示的宏包
+\usepackage{enumitem}   % 枚举宏包
+\usepackage{makecell}   % 单元格宏包
+\usepackage{listings}   % 代码
+\usepackage{longtable}  % 跨页表
+\usepackage{ltxtable}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{color}      % 颜色字体
+\usepackage{xeCJKfntef} % 中文下划线
+\usepackage[hang,flushmargin]{footmisc} % 脚注
+\usepackage{url}        % URL
+\let\comment\undefined  % comment命令在伪代码包和changes宏包内冲突
+\newfontfamily\myfont{times.ttf}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+% \usepackage{hyperref}
+% \usepackage[textwidth = 60pt]{todonotes} 
+% \usepackage[todonotes={textsize=tiny}]{changes}
+
+% 终稿指令
+\usepackage[disable]{todonotes}
+\usepackage[final]{changes}
+% 终稿指令结束
+
+\setlength {\marginparwidth }{2cm} 
+\newcommand{\tinytodo}[2][]{\todo[caption={#2}, size=\small, #1]{\renewcommand{\baselinestretch}{0.5}\selectfont#2\par}}
+\definechangesauthor[name=余润峰, color=orange]{yrf}
+\definechangesauthor[name=孙逸宸, color=blue]{syc}
+
+% 修订命令举例（都可增加侧边注释）
+% \added[id=<id>, comment=<comment>]{<new text>} 增加文本
+% \deleted[id=<id>, comment=<comment>]{<old text>} 删除文本
+% \replaced[id=<id>, comment=<comment>]{<new text>}{<old text>} 替换文本
+
+%%%%%%%%%%%%%%%填写封面信息%%%%%%%%%%%%%%%%%%%%
+\author{余润峰}                                   % 作者姓名
+\studentNumber{21125806}                         % 作者学号
+\advisor{员丽芬}                                  % 导师姓名
+\advisorTitle{副教授}                             % 导师职称
+\degreeType{工学}                                % 学位类别
+\major{交通运输}                                  % 所属专业
+\researchArea{运筹优化}                           % 研究方向
+\engineeringMasterField{交通运输}                 % 专业学位类别（领域）
+
+% \author{ }                                          % 作者姓名
+% \studentNumber{ }                                   % 作者学号
+% \advisor{ }                                         % 导师姓名
+% \advisorTitle{ }                                    % 导师职称
+% \degreeType{ }                                      % 学位类别
+% \major{ }                                           % 所属专业
+
+\title{考虑节点失效风险的物流网络选址模型及算法研究}        % 论文题目
+
+
+\englishtitle{Models and Algorithms for Logistics Network 
+    Location Problem Considering Node Disruption Risk}  %论文题目英文
+\datetime{2023年5月}                                % 编辑日期
+
+
+\begin{document}
+\setmainfont{Times New Roman}
+
+\makecover      % 封面
+\makeAuthorization % 授权书
+\makeEmptyPage % 跟个空页面
+
+\makeInfo % 内封
+
+\include{chapters/thanks}                   % 致谢
+\include{chapters/abstract}                 % 摘要
+\include{chapters/englishabstract}          % 英文摘要
+
+\tableofcontents                            % 目录
+\cleardoublepage
+% \includepdf[page=-]{chapters/empty.pdf}   % 注意，这里是在目录后加一个空白页，如果不需要空白页，请注释掉这一行
+
+
+\newpage\pagenumbering{arabic}              % 数字页码
+\include{chapters/chapter01}                % 第一章
+\include{chapters/chapter02}                % 第二章
+\include{chapters/chapter03}                % 第三章
+\include{chapters/chapter04}                % 第四章
+\include{chapters/chapter05}                % 第五章
+\include{chapters/chapter07}                % 第七章
+ 
+\nocite{*}
+\bibliography{reference/ref}                % 参考文献
+
+\backmatter
+\input{chapters/appendix01}                 % 附录01
+\input{chapters/appendix02}                 % 附录02
+
+\include{chapters/mresume}                  % 个人简介
+\include{chapters/statement} 	            % 陈述
+\include{chapters/dataset}	                % 数据集
+
+\end{document}

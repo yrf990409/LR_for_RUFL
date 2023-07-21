@@ -1,0 +1,58 @@
+% PDFLATEX引擎
+\documentclass[11pt]{article}
+\usepackage{CJK}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}
+
+
+\begin{algorithm}
+\caption{BFS算法}
+\begin{algorithmic}[1] %每行显示行号
+        \Require 客户集合$I$, 设施集合$\bar{J}$
+    \end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm}
+\caption{BFS算法}
+    \begin{algorithmic}[1] %每行显示行号
+        \Require 序列$s_i$, 成本$C_{lb}(s_i)$, 最优路线$s_i^*$, 最优成本$C_{lb}(s_i^*)$, 当前概率$p$, 节点集合$\bar{J}$
+        % \Ensure 最优上界$ub^*$
+
+    \end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm}
+\caption{ILS算法}
+    \begin{algorithmic}[1] %每行显示行号
+        \Require 选址方案$J^*$
+        \State 已知最佳选址方案$J^*_{best}$ := $J^*$
+        \Repeat 
+            \State 邻域$\mathcal{N}(J^*)$ := 邻域算子($J^*$)
+            \State $obj_{\mathcal{N}(J^*)}$ := 目标函数($\mathcal{N}(J^*)$)
+            \If {min($obj_{\mathcal{N}(J^*)}$)$< obj_{J^*_{best}}$}
+                \State $J^*_{best}$ := $j$
+                \State \Return $J^*_{best}$
+            \Else 
+                \State $J^*$ := 接受准则($\mathcal{N}(J^*)$)
+            \EndIf
+
+        \Until 终止条件满足
+        \State \Return $J^*_{best}$
+    \end{algorithmic}
+\end{algorithm}
+
+
+\end{CJK*}
+\end{document}s

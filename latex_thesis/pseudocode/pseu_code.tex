@@ -1,0 +1,73 @@
+
+\documentclass[11pt]{article}
+\usepackage{CJK}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gkai}
+
+\begin{algorithm}
+\caption{拉格朗日松弛算法}
+    \begin{algorithmic}[1] %每行显示行号
+        \Require 原模型M, 松弛模型RM
+        \State $\mu$ := 初始化乘子()
+        \State $ub^*$ := $+\infty$  \quad \% 最佳上界
+        \State $Y^*$ := $\emptyset$ \quad \% 最佳选址方案
+        \Repeat
+            \State 下界$lb$, 选址方案$Y$ := 下界精确算法(RM($\mu$))
+            \State 上界$ub$ := 上界启发式方法(M($Y$))
+            \If {$ub < ub^*$}                        %条件语句
+                \State $ub^*$ := $ub$
+                \State $Y^*$ := $Y$
+            \EndIf
+            
+            \State $\mu$ := 更新乘子($\mu$, $lb$, $ub^*$)
+            \If {ILS条件触发}                        %条件语句
+                \State $ub^*$ := ILS($ub^*$)
+            \EndIf
+        \Until{满足终止条件}
+        \State $ub^*$ := 精确方法(M($Y^*$))
+        
+        \State \textbf{return} $ub^*, Y^*$
+    \end{algorithmic}
+\end{algorithm}
+
+
+
+\begin{algorithm}
+    \caption{DFS算法}
+        \begin{algorithmic}[1] %每行显示行号
+            \Require 序列$s_i$, 成本$C_{lb}(s_i)$, 最优路线$s_i^*$, 最优成本$C_{lb}(s_i^*)$, 当前概率$p$, 节点集合$\bar{J}$
+            % \Ensure 最优上界$ub^*$
+            \If {$s_i$已达到最大深度~\&~$C_{lb}(s_i)<C_{lb}(s_i^*)$}                       %条件语句
+                \State $s_i^*$, $C_{lb}(s_i^*)$ := 更新($s_i$, $C_{lb}(s_i)$, $s_i^*$, $C_{lb}(s_i^*)$)
+                \State \textbf{return} $s_i^*$, $C_{lb}(s_i^*)$
+            \Else
+                \For {$j \in \bar{J}$} 
+                    \State stack := 记录($s_i$, $C_{lb}(s_i)$, $p$)
+                    \If {$C_{lb}(s_i + \{j\})<C_{lb}(s_i^*)$} \% 剪枝
+                        \State $s_i:=s_i + \{j\}$
+                        % \State $C_{lb}(s_i)$ :=$C_{lb}(s_i + \{j\})$
+                        \State $\bar{J} :=\bar{J} \backslash \{j\}$
+                        \State $p: = p * q_j$
+                        \State $s_i^*$, $C_{lb}(s_i^*)$ := BFS($s_i$, $C_{lb}(s_i)$, $s_i^*$, $C_{lb}(s_i^*)$, $p$, $\bar{J}$) \quad \% 递归
+                        \State $s_i$, $C_{lb}(s_i)$, $p$ := 恢复(stack)
+                    \EndIf  
+                \EndFor
+            \EndIf
+            \State \textbf{return} $s_i^*, C_{lb}(s_i^*)$
+        \end{algorithmic}
+    \end{algorithm}
+
+
+
+\end{CJK*}
+\end{document}
