@@ -1,0 +1,11 @@
+
+latex_thesis/manuscript.aux
+*.aux
+*.bbl
+*.blg
+*.loc
+*.log
+*.out
+*.soc
+*.gz
+*.toc
